@@ -74,6 +74,15 @@ body {
   margin-top: 64px;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
+  right: 0;
+}
+
 footer {
   background: var(--footer-bg);
   padding: 64px;
@@ -86,7 +95,7 @@ footer .footer-links {
 
 footer .footer-links .product-links a {
   color: var(--faint-green);
-  font-size: 26px;
+  font-size: 20px;
 }
 
 footer .product-quick-link {
@@ -94,7 +103,7 @@ footer .product-quick-link {
 }
 
 footer .footer-links .product-links h3 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 footer .border-line {

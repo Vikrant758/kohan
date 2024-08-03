@@ -3,8 +3,8 @@
     padding: 0 24px;
   }
 
-  #home-section header .navbar {
-    padding: 20px 0;
+  header .navbar {
+    padding: 20px 20px;
   }
 
   header .navbar-nav {
@@ -12,7 +12,7 @@
   }
 
   #home-section .nav-item .nav-link {
-    text-align: right;
+    text-align: left;
   }
 
   h2,
@@ -193,7 +193,7 @@
   }
 
   #home-section .nav-item .nav-link {
-    text-align: right;
+    text-align: left;
   }
 
   #home-section .aboutus-wrapper {
@@ -333,4 +333,12 @@
   }
 }
 
-@media (min-width: 1501px) and (max-width:1920px) {}
+@media (min-width: 1501px) and (max-width:1700px) {
+  #home-section .products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 325px);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+}
