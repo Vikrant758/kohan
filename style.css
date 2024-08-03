@@ -312,6 +312,7 @@ footer .footer-links .product-links h3 {
 header .dropdown-item {
   color: var(--green-clr);
   border-bottom: 1px solid #E8E8F0;
+  font-weight: 500;
 }
 
 header .dropdown-menu li:last-child .dropdown-item {
@@ -319,5 +320,5 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-  padding: 20px;
+  padding: 8px;
 }
