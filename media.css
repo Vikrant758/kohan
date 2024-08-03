@@ -102,6 +102,8 @@
 
   .contact-us .btn-primary {
     font-size: 16px;
+    height: 40px;
+    margin-top: 20px;
   }
 
   .contact-us .contact-content h1 {
@@ -177,6 +179,8 @@
   .mission-content {
     padding: 40px 24px;
   }
+
+
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
