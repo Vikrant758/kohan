@@ -119,6 +119,10 @@ header .navbar {
   text-transform: capitalize;
 }
 
+.carousel-text {
+  margin-bottom: 30px;
+}
+
 #home-section .number-count {
   padding: 80px 0;
   text-align: center;
