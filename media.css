@@ -38,7 +38,15 @@
   }
 
   #home-section .aboutus-wrapper h2 {
-    margin-bottom: 24px;
+    margin-bottom: 40px;
+  }
+
+  .number-count h1 {
+    font-size: 20px;
+  }
+
+  .industry-wrapper-content h1 {
+    font-size: 20px;
   }
 
   #home-section .aboutus-wrapper p {
