@@ -67,20 +67,31 @@ header .navbar {
   font-size: 24px;
 }
 
+.count-detail h3 {
+  text-transform: capitalize;
+}
+
 .our-product-section .product-detail {
-  border: 1.5px solid;
+  border: 1.5px solid transparent;
   border-image-source: linear-gradient(105.61deg, rgba(255, 255, 255, 0.2) 0%, rgba(21, 30, 109, 0.3) 50%);
   border-image-slice: 1;
-  -webkit-border-radius: 16px;
-  padding: 32px;
   border-radius: 16px;
+  padding: 32px;
   background: linear-gradient(105.61deg, rgba(21, 30, 109, 0.03) 0%, rgba(21, 30, 109, 0.06) 100%);
+  text-align: center;
+  overflow: hidden;
+  clip-path: inset(0 round 16px);
 }
+
 
 .product-detail .product-item .product-img img {
   height: 250px;
   width: 250px;
   object-fit: cover;
+}
+
+.approach-detail p {
+  font-weight: 500;
 }
 
 .our-product-section {
@@ -103,6 +114,7 @@ header .navbar {
   text-align: left;
   margin-top: 20px;
   margin-bottom: 8px;
+  text-transform: capitalize;
 }
 
 #home-section .number-count {
@@ -222,6 +234,10 @@ header .navbar {
 
 .certifications {
   padding-bottom: 80px;
+}
+
+.number-count h1 {
+  font-weight: 400;
 }
 
 /* About Us */
