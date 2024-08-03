@@ -114,7 +114,7 @@ header .navbar {
 
 #home-section .product-content h3 {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 8px;
   text-transform: capitalize;
 }

@@ -19,6 +19,9 @@
 a {
   text-decoration: unset;
 }
+p {
+  margin-bottom: 0;
+}
 
 h1,
 .h1 {}
