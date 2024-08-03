@@ -333,7 +333,7 @@
   }
 }
 
-@media (min-width: 1501px) and (max-width:1700px) {
+@media (min-width: 1501px) and (max-width:1750px) {
   #home-section .products-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 325px);
