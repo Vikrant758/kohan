@@ -4,6 +4,7 @@ header .nav-item .nav-link,
 header .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
   font-size: 20px;
+  font-weight: 500;
 }
 
 header .navbar-nav {
@@ -16,7 +17,7 @@ header .navbar-nav {
 
 #home-section .nav-item .nav-link.active {
   color: var(--primary-color);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #home-section .carousel-indicators [data-bs-target] {
@@ -206,6 +207,11 @@ header .navbar {
 
 .certifications h2 {
   margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-detail .product-item .product-content p {
+  font-weight: 500;
 }
 
 .contact-us {
