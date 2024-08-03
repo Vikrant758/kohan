@@ -72,6 +72,111 @@
   #home-section .number-count .count-detail h3 {
     font-size: 20px;
   }
+
+  .industry-conatiner {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .certifications .certifications-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-us .d-flex {
+    display: block !important;
+  }
+
+  footer .footer-links {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .contact-us {
+    padding: 32px 16px;
+  }
+
+  .contact-us .contact-content h3 {
+    font-size: 16px
+  }
+
+  .contact-us .btn-primary {
+    font-size: 16px;
+  }
+
+  .contact-us .contact-content h1 {
+    font-size: 20px;
+  }
+
+  .industry-wrapper .industry-text .industry-content h3 {
+    font-size: 18px;
+  }
+
+  #home-section .our-product-section {
+    padding: 0 0 40px 0;
+  }
+
+  .approach-section .approach-content p {
+    font-size: 20px;
+  }
+
+  .industry-section {
+    padding: 40px 0;
+  }
+
+  footer .footer-links .product-links h3 {
+    font-size: 20px;
+  }
+
+  footer .footer-links .product-links a {
+    font-size: 18px
+  }
+
+  .industry-section .industry-wrapper {
+    padding: 16px;
+  }
+
+  .approach-detail.mt-64 {
+    margin-top: 24px;
+  }
+
+  footer {
+    padding: 24px;
+  }
+
+  footer .copyright {
+    font-size: 14px;
+  }
+
+  #about-section .about-us {
+    height: 300px;
+    margin-top: 20px;
+  }
+
+  #about-section {
+    padding: 0 24px;
+  }
+
+  #about-section .aboutus-wrapper {
+    padding: 40px 0;
+  }
+
+  .mission-content {
+    display: block;
+  }
+
+  .mission-wrapper-section .mission-content .mission-data,
+  .mission-wrapper-section .mission-content .mission-data h3 {
+    width: 100%;
+  }
+
+  .mission-wrapper-section .mission-content .mission-data h3 {
+    font-size: 24px;
+  }
+
+  .mission-content {
+    padding: 40px 24px;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
@@ -110,6 +215,26 @@
   #home-section .number-count h3 {
     font-size: 20px;
   }
+
+  .industry-conatiner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .industry-wrapper .industry-text .industry-content h3 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 820px) and (max-width:1024px) {
+  .industry-conatiner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .industry-wrapper .industry-text .industry-content h3 {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width:1200px) {}
@@ -140,6 +265,41 @@
     justify-content: center;
     align-items: center;
   }
+
+  .industry-wrapper .industry-text .industry-content h3 {
+    font-size: 20px;
+  }
+
+  .contact-us .contact-content h1 {
+    margin-bottom: 16px;
+    font-size: 35px;
+  }
+
+  .contact-us .contact-content h3 {
+    font-size: 26px;
+  }
+
+  footer .footer-links .product-links a {
+    color: var(--faint-green);
+    font-size: 20px;
+  }
+
+  footer .product-quick-link {
+    gap: 16px;
+  }
+
+  footer .footer-links .product-links h3 {
+    font-size: 18px;
+  }
+
+  .mission-wrapper-section .mission-content .mission-data,
+  .mission-wrapper-section .mission-content .mission-data h3 {
+    width: 400px;
+  }
+
+  .contact-us .btn-primary {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 1367px) and (max-width:1500px) {
@@ -161,6 +321,15 @@
     gap: 40px;
     justify-content: center;
     align-items: center;
+  }
+
+  footer .footer-links .product-links h3 {
+    font-size: 22px;
+  }
+
+  .mission-wrapper-section .mission-content .mission-data,
+  .mission-wrapper-section .mission-content .mission-data h3 {
+    width: 450px;
   }
 }
 

@@ -138,14 +138,130 @@ header .navbar-nav {
   margin-bottom: 16px;
 }
 
+.approach-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .industry-section .industry-wrapper {
   background: linear-gradient(105.61deg, rgba(21, 30, 109, 0.03) 0%, rgba(21, 30, 109, 0.06) 100%);
   padding: 24px;
-
+  border-radius: 16px;
 }
 
 .industry-section .industry-wrapper .serve-content img {
-  height: 120px;
+  height: 100%;
   width: 120px;
   object-fit: cover;
+  border-radius: 8px;
+}
+
+.industry-conatiner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.industry-section {
+  padding: 80px 0;
+}
+
+.industry-wrapper-content h1 {
+  margin-bottom: 40px;
+}
+
+.industry-wrapper .industry-text {
+  gap: 16px;
+}
+
+.industry-wrapper .industry-text .industry-content h3 {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.certifications .certifications-wrapper {
+  display: flex;
+  gap: 128px;
+  justify-content: center;
+  align-items: center;
+}
+
+.certifications .certifications-wrapper img {
+  height: 200px
+}
+
+.certifications h2 {
+  margin-bottom: 40px;
+}
+
+.contact-us {
+  padding: 64px;
+}
+
+.contact-us .btn-primary {
+  background: var(--white-bg);
+  font-size: 40px;
+  padding: 16px;
+  border: 1px solid var(--white-bg);
+}
+
+.contact-us .contact-content {
+  color: var(--white-bg);
+}
+
+.contact-us .contact-content h3 {
+  text-align: start;
+}
+
+.contact-us .contact-content h1 {
+  margin-bottom: 16px;
+}
+
+.certifications {
+  padding-bottom: 80px;
+}
+
+/* About Us */
+.about-us {
+  background-image: url(../images/about-us.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  border-radius: 16px;
+}
+
+.about-us .about-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-section .aboutus-wrapper {
+  padding: 80px 0;
+}
+
+
+#about-section {
+  padding: 0 64px;
+}
+
+.mission-content {
+  background: var(--secondary-color);
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mission-wrapper-section .mission-content .mission-data,
+.mission-wrapper-section .mission-content .mission-data h3 {
+  text-align: left;
+  width: 600px;
+}
+
+.mission-wrapper {
+  gap: 24px;
 }
