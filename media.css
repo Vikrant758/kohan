@@ -53,6 +53,10 @@
     font-size: 16px;
   }
 
+  .certifications h2 {
+    margin-bottom: 0px;
+  }
+
   .carousel-inner .carousel-item img {
     height: 300px;
     object-fit: cover;
@@ -78,7 +82,7 @@
   }
 
   #home-section .number-count .count-detail h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .industry-conatiner {
