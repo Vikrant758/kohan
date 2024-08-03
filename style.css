@@ -247,6 +247,14 @@ header .navbar {
   font-weight: 400;
 }
 
+footer .footer-links .product-links h3 {
+  font-weight: 600;
+}
+
+.industry-wrapper .industry-text .industry-content p {
+  font-weight: 500;
+}
+
 /* About Us */
 .about-us {
   background-image: url(./images/about-us.png);
