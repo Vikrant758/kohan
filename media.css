@@ -223,6 +223,26 @@
   #product-section .product-list h2 {
     margin-bottom: 20px;
   }
+
+  .product-list .product-list-detail {
+    flex-direction: column;
+  }
+
+  #product-detail {
+    padding: 0 24px;
+  }
+
+  #product-detail .product-list .nav-pills {
+    width: auto;
+  }
+
+  #product-detail .product-section {
+    height: 300px;
+  }
+
+  #product-detail .product-detail-wrapper {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
