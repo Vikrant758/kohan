@@ -384,7 +384,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   background: var(--secondary-color);
   padding: 32px;
   border-radius: 8px;
-  width: 100vw;
+  width: 100%;
 }
 
 #product-detail .product-list .nav-pills .nav-link {
@@ -445,6 +445,8 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 .product-list .product-list-detail {
   gap: 32px;
+  display: grid !important;
+  grid-template-columns: 30% 70%;
 }
 
 #product-detail .product-list .detail-section .product-description p {
