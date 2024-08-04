@@ -260,6 +260,10 @@
   .product-detail-wrapper .product-description {
     order: 1;
   }
+
+  .product-list .product-list-detail {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
