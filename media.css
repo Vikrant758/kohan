@@ -241,7 +241,24 @@
   }
 
   #product-detail .product-detail-wrapper {
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+  }
+
+  #product-detail .techniqual-specifications li {
+    font-size: 18px;
+  }
+
+  #product-detail .product-list .detail-section .product-description p {
+    font-size: 18px;
+  }
+
+  #product-detail .product-list .nav-pills .nav-link {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .product-detail-wrapper .product-description {
+    order: 1;
   }
 }
 
@@ -370,6 +387,18 @@
   #product-section .product-item h3 {
     font-size: 16px;
   }
+
+  #product-detail .product-list .nav-pills .nav-link {
+    font-size: 20px;
+  }
+
+  #product-detail .product-list .detail-section .product-description p {
+    font-size: 18px;
+  }
+
+  #product-detail .techniqual-specifications li {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1367px) and (max-width:1500px) {
@@ -414,5 +443,11 @@
     gap: 40px;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1500px) and (max-width:1920px) {
+  #product-detail .container {
+    max-width: 1460px;
   }
 }
