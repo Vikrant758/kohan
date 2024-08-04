@@ -455,4 +455,5 @@ header .dropdown-menu li:last-child .dropdown-item {
 #product-detail .product-detail-wrapper {
   display: grid !important;
   grid-template-columns: 70% 30%;
+  align-items: center;
 }
