@@ -380,8 +380,41 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 /* #product-section .tabs-text {} */
 
-#product-section .product-list .nav-pills {
+#product-detail .product-list .nav-pills {
   background: var(--secondary-color);
   padding: 32px;
   border-radius: 8px;
+}
+
+#product-detail .product-list .nav-pills .nav-link {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--green-clr);
+  padding: 16px 16px;
+}
+
+#product-detail .product-list .nav-pills .nav-link.active {
+  color: var(--text-black);
+  background: unset;
+  font-weight: 600;
+}
+
+#product-detail {
+  padding: 0 64px;
+}
+
+#product-detail .product-section {
+  background-image: url(./images/product-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product-detail .product-list {
+  padding: 80px 0;
 }
