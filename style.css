@@ -437,7 +437,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 }
 
-#product-detail .product-description .product-img img {
+#product-detail .product-img img {
   height: 280px;
   width: 280px;
 }
@@ -446,7 +446,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   gap: 32px;
 }
 
-#product-detail .product-list .detail-section .product-description p{
+#product-detail .product-list .detail-section .product-description p {
   font-size: 20px;
   font-weight: normal;
 }
