@@ -113,17 +113,23 @@
   }
 
   .contact-us .contact-content h3 {
-    font-size: 16px
+    font-size: 16px;
+    text-align: center;
   }
 
   .contact-us .btn-primary {
     font-size: 16px;
     height: 40px;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 20px auto 0;
   }
 
   .contact-us .contact-content h1 {
     font-size: 20px;
+    text-align: center;
   }
 
   .industry-wrapper .industry-text .industry-content h3 {
