@@ -19,6 +19,7 @@
 a {
   text-decoration: unset;
 }
+
 p {
   margin-bottom: 0;
 }
@@ -58,6 +59,10 @@ body {
 
 .clr-faint-green {
   color: var(--green-clr);
+}
+
+.clr-text-black {
+  color: var(--text-black);
 }
 
 .bg-primary {

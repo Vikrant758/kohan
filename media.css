@@ -203,6 +203,26 @@
   .menu-spacer {
     margin-top: 100px;
   }
+
+  #product-section {
+    padding: 0 24px;
+  }
+
+  #product-section .product-section {
+    height: 300px;
+  }
+
+  #product-section .product-list .product-detail h3 {
+    font-size: 18px;
+  }
+
+  #product-section .product-list {
+    padding: 40px 0;
+  }
+
+  #product-section .product-list h2 {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
@@ -326,6 +346,10 @@
   .contact-us .btn-primary {
     font-size: 32px;
   }
+
+  #product-section .product-item h3 {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1367px) and (max-width:1500px) {
@@ -356,6 +380,10 @@
   .mission-wrapper-section .mission-content .mission-data,
   .mission-wrapper-section .mission-content .mission-data h3 {
     width: 450px;
+  }
+
+  #product-section .product-item h3 {
+    font-size: 20px;
   }
 }
 

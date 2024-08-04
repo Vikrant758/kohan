@@ -341,3 +341,39 @@ header .dropdown-menu li:last-child .dropdown-item {
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   padding: 8px;
 }
+
+/* Product Page */
+#product-section {
+  padding: 0 64px;
+}
+
+#product-section .product-section {
+  background-image: url(./images/product-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product-section .product-list {
+  padding: 80px 0;
+}
+
+#product-section .product-item h3 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#product-section .product-list .product-detail {
+  margin-bottom: 20px;
+}
+
+#product-section .product-list h2 {
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
