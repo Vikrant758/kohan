@@ -239,6 +239,10 @@
   #product-detail .product-section {
     height: 300px;
   }
+
+  #product-detail .product-detail-wrapper {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
