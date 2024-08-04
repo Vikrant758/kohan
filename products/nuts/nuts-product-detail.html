@@ -23,12 +23,17 @@
         const selectedActivateButtonId = "security-nuts-tabs";
         const selectedContentId = "security-nuts";
         document.getElementById(selectedActivateButtonId).classList.remove('active');
+
         document.getElementById(selectedContentId).classList.remove('active');
+
         document.getElementById(selectedContentId).classList.remove('show');
 
         document.getElementById(id).classList.add('active');
+
         document.getElementById(dataBsTarget).classList.add('active');
+
         document.getElementById(dataBsTarget).classList.add('show');
+
         document.getElementById("imageHeading").innerText = name;
       }
 
@@ -158,8 +163,10 @@
               Nut</button>
           </div>
           <div class="tab-content" id="v-pills-tabContent">
+
+
             <div class="tab-pane fade show active" id="security-nuts" role="tabpanel"
-              aria-labelledby="security-nuts-tabs" tabindex="0">
+              aria-labelledby="security_nuts_tabs" tabindex="0">
               <div class="detail-section">
                 <div class="detail-title mb-20 mt-40">
                   <img src="../../images/Nuts/produt-icon.webp" alt="">
@@ -216,6 +223,7 @@
                 </div>
               </div>
             </div>
+
             <div class="tab-pane fade" id="brass-insert-nut" role="tabpanel" aria-labelledby="brass-insert-nut-tab"
               tabindex="0">
               <div class="detail-section">
