@@ -20,15 +20,21 @@
       const name = searchParams.get('name');
 
       if (id && dataBsTarget) {
-        const selectedActivateButtonId = "security-nuts-tab";
-        const selectedContentId = "security-nuts";
+        const selectedActivateButtonId = "security_nuts_tabs";
+        const selectedContentId = "security_nuts";
+
         document.getElementById(selectedActivateButtonId).classList.remove('active');
+
         document.getElementById(selectedContentId).classList.remove('active');
+
         document.getElementById(selectedContentId).classList.remove('show');
 
         document.getElementById(id).classList.add('active');
+
         document.getElementById(dataBsTarget).classList.add('active');
+
         document.getElementById(dataBsTarget).classList.add('show');
+
         document.getElementById("imageHeading").innerText = name;
       }
 
@@ -98,7 +104,7 @@
     <div class="product-section menu-spacer">
       <div class="product-container">
         <div class="product-text">
-          <h2 class="text-center text-white">Products</h2>
+          <h2 id="imageHeading" class="text-center text-white">Products</h2>
         </div>
       </div>
     </div>
@@ -110,12 +116,13 @@
           <div class="nav flex-column nav-pills me-3 align-items-start" id="v-pills-tab" role="tablist"
             aria-orientation="vertical">
             <h2 class="clr-primary">Nuts</h2>
-            <button class="nav-link tabs-text active" id="security-nuts-tabs" data-bs-toggle="pill"
-              data-bs-target="#security-nuts" type="button" role="tab" aria-controls="security-nuts"
+            <button class="nav-link tabs-text active" id="security_nuts_tabs" data-bs-toggle="pill"
+              data-bs-target="#security_nuts" type="button" role="tab" aria-controls="security_nuts"
               aria-selected="true">Security Nut</button>
 
             <button class="nav-link tabs-text" id="round_nuts_tabs" data-bs-toggle="pill" data-bs-target="#round_nuts"
-              type="button" role="tab" aria-controls="round-nuts" aria-selected="false">Round Nut</button>
+              type="button" role="tab" aria-controls="round_nuts" aria-selected="true">Round Nut</button>
+
             <button class="nav-link tabs-text" id="brass-insert-nut-tab" data-bs-toggle="pill"
               data-bs-target="#brass-insert-nut" type="button" role="tab" aria-controls="brass-insert-nut"
               aria-selected="false">Brass Insert
@@ -151,8 +158,10 @@
               Nut</button>
           </div>
           <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="security-nuts" role="tabpanel"
-              aria-labelledby="security-nuts-tabs" tabindex="0">
+
+
+            <div class="tab-pane fade show active" id="security_nuts" role="tabpanel"
+              aria-labelledby="security_nuts_tabs" tabindex="0">
               <div class="detail-section">
                 <div class="detail-title mb-20 mt-40">
                   <img src="/images/Nuts/produt-icon.webp" alt="">
@@ -184,7 +193,8 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="round-nuts" role="tabpanel" aria-labelledby="round_nuts_tabs" tabindex="0">
+
+            <div class="tab-pane fade" id="round_nuts" role="tabpanel" aria-labelledby="round_nuts_tabs" tabindex="0">
               <div class="detail-section">
                 <div class="detail-title mb-20 mt-40">
                   <img src="/images/Nuts/produt-icon.webp" alt="">
@@ -209,6 +219,7 @@
                 </div>
               </div>
             </div>
+
             <div class="tab-pane fade" id="brass-insert-nut" role="tabpanel" aria-labelledby="brass-insert-nut-tab"
               tabindex="0">
               <div class="detail-section">
