@@ -377,3 +377,11 @@ header .dropdown-menu li:last-child .dropdown-item {
   margin-bottom: 40px;
   text-transform: capitalize;
 }
+
+/* #product-section .tabs-text {} */
+
+#product-section .product-list .nav-pills {
+  background: var(--secondary-color);
+  padding: 32px;
+  border-radius: 8px;
+}
