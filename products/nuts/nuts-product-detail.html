@@ -20,9 +20,8 @@
       const name = searchParams.get('name');
 
       if (id && dataBsTarget) {
-        const selectedActivateButtonId = "security_nuts_tabs";
-        const selectedContentId = "security_nuts";
-
+        const selectedActivateButtonId = "security-nuts-tabs";
+        const selectedContentId = "security-nuts";
         document.getElementById(selectedActivateButtonId).classList.remove('active');
 
         document.getElementById(selectedContentId).classList.remove('active');
@@ -115,46 +114,52 @@
         <div class="d-flex align-items-start product-list-detail">
           <div class="nav flex-column nav-pills me-3 align-items-start" id="v-pills-tab" role="tablist"
             aria-orientation="vertical">
-            <h2 class="clr-primary">Nuts</h2>
-            <button class="nav-link tabs-text active" id="security_nuts_tabs" data-bs-toggle="pill"
-              data-bs-target="#security_nuts" type="button" role="tab" aria-controls="security_nuts"
-              aria-selected="true">Security Nut</button>
-
+            <!-- <h2 class="clr-primary">Nuts</h2> -->
+            <button class="nav-link tabs-text active" id="security-nuts-tabs" data-bs-toggle="pill"
+              data-bs-target="#security-nuts" type="button" role="tab" aria-controls="security-nuts"
+              aria-selected="true" onclick="onTypeClick('Security Nut')">Security Nut</button>
             <button class="nav-link tabs-text" id="round_nuts_tabs" data-bs-toggle="pill" data-bs-target="#round_nuts"
-              type="button" role="tab" aria-controls="round_nuts" aria-selected="true">Round Nut</button>
-
+              type="button" role="tab" aria-controls="round-nuts" aria-selected="false"
+              onclick="onTypeClick('Round Nut')">Round Nut</button>
             <button class="nav-link tabs-text" id="brass-insert-nut-tab" data-bs-toggle="pill"
               data-bs-target="#brass-insert-nut" type="button" role="tab" aria-controls="brass-insert-nut"
-              aria-selected="false">Brass Insert
+              aria-selected="false" onclick="onTypeClick('Brass Insert Nut')">Brass Insert
               Nut</button>
 
             <button class="nav-link tabs-text" id="hex-nut-tab" data-bs-toggle="pill" data-bs-target="#hex-nut"
-              type="button" role="tab" aria-controls="hex-nut" aria-selected="false">Hex Nut</button>
+              type="button" role="tab" aria-controls="hex-nut" aria-selected="false"
+              onclick="onTypeClick('Hex Nut')">Hex Nut</button>
 
             <button class="nav-link tabs-text" id="hex-slotted-castel-tab" data-bs-toggle="pill"
               data-bs-target="#hex-slotted-castel" type="button" role="tab" aria-controls="hex-slotted-castel"
-              aria-selected="false">Hex Slotted / Castle
+              aria-selected="false" onclick="onTypeClick('Hex Slotted / Castle Nut')">Hex Slotted / Castle
               Nut</button>
             <button class="nav-link tabs-text" id="heavy-hex-tab" data-bs-toggle="pill" data-bs-target="#heavy-hex"
-              type="button" role="tab" aria-controls="heavy-hex" aria-selected="false">Heavy Hex
+              type="button" role="tab" aria-controls="heavy-hex" aria-selected="false"
+              onclick="onTypeClick('Heavy Hex Nut')">Heavy Hex
               Nut</button>
             <button class="nav-link tabs-text" id="flange-nut-tab" data-bs-toggle="pill" data-bs-target="#flange-nut"
-              type="button" role="tab" aria-controls="flange-nut" aria-selected="false">Flange Nut</button>
+              type="button" role="tab" aria-controls="flange-nut" aria-selected="false"
+              onclick="onTypeClick('Flange Nut')">Flange Nut</button>
             <button class="nav-link tabs-text" id="cap-nut-tab" data-bs-toggle="pill" data-bs-target="#cap-nut"
-              type="button" role="tab" aria-controls="cap-nut" aria-selected="false">Cap
+              type="button" role="tab" aria-controls="cap-nut" aria-selected="false"
+              onclick="onTypeClick('Cap Nut')">Cap
               Nut</button>
             <button class="nav-link tabs-text" id="coupling-nut-tab" data-bs-toggle="pill"
-              data-bs-target="#coupling-nut" type="button" role="tab" aria-controls="coupling-nut"
-              aria-selected="false">Coupling
+              data-bs-target="#coupling-nut" type="button" role="tab" aria-controls="coupling-nut" aria-selected="false"
+              onclick="onTypeClick('Coupling Nut')">Coupling
               Nut</button>
             <button class="nav-link tabs-text" id="lock-nut-tab" data-bs-toggle="pill" data-bs-target="#lock-nut"
-              type="button" role="tab" aria-controls="lock-nut" aria-selected="false">Lock
+              type="button" role="tab" aria-controls="lock-nut" aria-selected="false"
+              onclick="onTypeClick('Lock Nut')">Lock
               Nut</button>
             <button class="nav-link tabs-text" id="square-nut-tab" data-bs-toggle="pill" data-bs-target="#square-nut"
-              type="button" role="tab" aria-controls="square-nut" aria-selected="false">Square
+              type="button" role="tab" aria-controls="square-nut" aria-selected="false"
+              onclick="onTypeClick('Square Nut')">Square
               Nut</button>
             <button class="nav-link tabs-text" id="thumb-nut-tab" data-bs-toggle="pill" data-bs-target="#thumb-nut"
-              type="button" role="tab" aria-controls="thumb-nut" aria-selected="false">Knurled / Thumb
+              type="button" role="tab" aria-controls="thumb-nut" aria-selected="false"
+              onclick="onTypeClick('Knurled / Thumb Nut')">Knurled / Thumb
               Nut</button>
           </div>
           <div class="tab-content" id="v-pills-tabContent">
@@ -193,7 +198,6 @@
                 </div>
               </div>
             </div>
-
             <div class="tab-pane fade" id="round_nuts" role="tabpanel" aria-labelledby="round_nuts_tabs" tabindex="0">
               <div class="detail-section">
                 <div class="detail-title mb-20 mt-40">
@@ -288,7 +292,7 @@
               <div class="detail-section">
                 <div class="detail-title mb-20 mt-40">
                   <img src="/images/Nuts/produt-icon.webp" alt="">
-                  <h1 class="clr-primary">Heavy Hex Nut</h1>
+                  <h1 class="clr-primary">Hex Slotted / Castle Nut</h1>
                 </div>
                 <div class="d-flex product-detail-wrapper">
                   <div class="product-description">
