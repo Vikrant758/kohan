@@ -12,7 +12,6 @@
   <script>
     document.addEventListener('DOMContentLoaded', (event) => {
       const url = window.location.href;
-      console.log(url);
       const urlObj = new URL(url);
       const searchParams = new URLSearchParams(urlObj.search);
       const id = searchParams.get('id');
@@ -124,9 +123,13 @@
               data-bs-target="#j_shoulder_bolts" type="button" role="tab" aria-controls="j_shoulder_bolts"
               aria-selected="true" onclick="onTypeClick('J Shoulder Bolts')">J Shoulder Bolts</button>
 
-            <button class="nav-link tabs-text" id="u_hex_bolts_tab" data-bs-toggle="pill" data-bs-target="#u_hex_bolts"
-              type="button" role="tab" aria-controls="u_hex_bolts" aria-selected="true"
-              onclick="onTypeClick('U Hex Bolts')">U Hex Bolts</button>
+            <button class="nav-link tabs-text" id="u_bolts_tab" data-bs-toggle="pill" data-bs-target="#u_hex_bolts"
+              type="button" role="tab" aria-controls="u_bolts" aria-selected="true" onclick="onTypeClick('U Bolts')">U
+              Bolts</button>
+
+            <button class="nav-link tabs-text" id="hex_bolts_tab" data-bs-toggle="pill" data-bs-target="#hex_bolts"
+              type="button" role="tab" aria-controls="hex_bolts" aria-selected="true"
+              onclick="onTypeClick('Hex Bolts')">Hex Bolts</button>
 
             <button class="nav-link tabs-text" id="flange_bolts_tab" data-bs-toggle="pill"
               data-bs-target="#flange_bolts" type="button" role="tab" aria-controls="flange_bolts" aria-selected="true"
@@ -234,12 +237,12 @@
               </div>
             </div>
 
-            <div class="tab-pane fade" id="u_hex_bolts" role="tabpanel" aria-labelledby="u_hex_bolts_tab" tabindex="0">
+            <div class="tab-pane fade" id="u_hex_bolts" role="tabpanel" aria-labelledby="u_bolts_tab" tabindex="0">
 
               <div class="detail-section">
                 <div class="detail-title mb-40 mt-40">
                   <img src="../../images/Nuts/produt-icon.webp" alt="">
-                  <h1 class="clr-primary">U Hex Bolts</h1>
+                  <h1 class="clr-primary">U Bolts</h1>
                 </div>
                 <div class="d-flex product-detail-wrapper">
                   <div class="product-description">
@@ -264,6 +267,40 @@
                   </div>
                   <div class="product-img">
                     <img class="img-fluid" src="../../images/products/bolts/u_hex_bolts.webp" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="hex_bolts" role="tabpanel" aria-labelledby="hex_bolts_tab" tabindex="0">
+
+              <div class="detail-section">
+                <div class="detail-title mb-40 mt-40">
+                  <img src="../../images/Nuts/produt-icon.webp" alt="">
+                  <h1 class="clr-primary">Hex Bolts</h1>
+                </div>
+                <div class="d-flex product-detail-wrapper">
+                  <div class="product-description">
+                    <p class="clr-text-black">Hex bolts are versatile fasteners characterized by their hexagonal heads,
+                      which allow for easy tightening with a wrench or socket. They are commonly used in construction,
+                      machinery, and automotive applications due to their strength and reliability. Available in various
+                      sizes and materials, hex bolts provide secure and durable connections, making them ideal for both
+                      structural and non-structural projects. Their precise threading ensures a tight fit, enhancing the
+                      stability and longevity of assemblies.
+                    </p>
+                    <br>
+                    <div class="techniqual-specifications">
+                      <h4>Technial Specification:</h4>
+                      <ul>
+                        <li>Metric Size: M3 to M36</li>
+                        <li>Thread Diameter: 0.7 to 2.5</li>
+                        <li>Length: 6mm to 250mm</li>
+                        <li>Material: Stainless Steel, Alloy Steel and also as per customer requirement.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-img">
+                    <img class="img-fluid" src="../../images/products/bolts/hex_bolts.webp" alt="">
                   </div>
                 </div>
               </div>
