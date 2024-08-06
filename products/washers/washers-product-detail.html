@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0">
-    <title>Kohan | Detailed Bolts Information</title>
+    <title>Kohan | Detailed Washers Information</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../../style.css">
@@ -20,8 +20,8 @@
             const name = searchParams.get('name');
 
             if (id && dataBsTarget) {
-                const selectedActivateButtonId = "allen_cap_bolts_tab";
-                const selectedContentId = "allen_cap_bolts";
+                const selectedActivateButtonId = "bevel_washers_tab";
+                const selectedContentId = "bevel_washers";
                 document.getElementById(selectedActivateButtonId).classList.remove('active');
                 document.getElementById(selectedContentId).classList.remove('active');
                 document.getElementById(selectedContentId).classList.remove('show');
@@ -112,315 +112,247 @@
                 <div class="d-flex align-items-start product-list-detail">
                     <div class="nav flex-column nav-pills me-3 align-items-start" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-                        <h2 class="clr-primary">Bolts</h2>
+                        <h2 class="clr-primary">Washers</h2>
 
-                        <button class="nav-link tabs-text active" id="allen_cap_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#allen_cap_bolts" type="button" role="tab" aria-controls="allen_cap_bolts"
-                            aria-selected="true" onclick="onTypeClick('Allen Cap Bolts')">Allen Cap Bolts</button>
+                        <button class="nav-link tabs-text active" id="bevel_washers_tab" data-bs-toggle="pill"
+                            data-bs-target="#bevel_washers" type="button" role="tab" aria-controls="bevel_washers"
+                            aria-selected="true" onclick="onTypeClick('Bevel Washers')">Bevel Washers</button>
 
-                        <button class="nav-link tabs-text" id="special_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#special_bolts" type="button" role="tab" aria-controls="special_bolts"
-                            aria-selected="true" onclick="onTypeClick('Special Bolts')">Special Bolts</button>
+                        <button class="nav-link tabs-text" id="flange_washers_tab" data-bs-toggle="pill"
+                            data-bs-target="#flange_washers" type="button" role="tab" aria-controls="flange_washers"
+                            aria-selected="true" onclick="onTypeClick('Flange Washers')">Flange Washers</button>
 
-                        <button class="nav-link tabs-text" id="j_shoulder_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#j_shoulder_bolts" type="button" role="tab" aria-controls="j_shoulder_bolts"
-                            aria-selected="true" onclick="onTypeClick('J Shoulder Bolts')">J Shoulder Bolts</button>
+                        <button class="nav-link tabs-text" id="plain_washers_tab" data-bs-toggle="pill"
+                            data-bs-target="#plain_washers" type="button" role="tab" aria-controls="plain_washers"
+                            aria-selected="true" onclick="onTypeClick('Plain Washers')">Plain Washers</button>
 
-                        <button class="nav-link tabs-text" id="u_hex_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#u_hex_bolts" type="button" role="tab" aria-controls="u_hex_bolts"
-                            aria-selected="true" onclick="onTypeClick('U Hex Bolts')">U Hex Bolts</button>
+                        <button class="nav-link tabs-text" id="spring_washers_tab" data-bs-toggle="pill"
+                            data-bs-target="#spring_washers" type="button" role="tab" aria-controls="spring_washers"
+                            aria-selected="true" onclick="onTypeClick('Spring Washers')">Spring Washers</button>
 
-                        <button class="nav-link tabs-text" id="flange_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#flange_bolts" type="button" role="tab" aria-controls="flange_bolts"
-                            aria-selected="true" onclick="onTypeClick('Flange Bolts')">Flange Bolts</button>
+                        <button class="nav-link tabs-text" id="square_washers_tab" data-bs-toggle="pill"
+                            data-bs-target="#square_washers" type="button" role="tab" aria-controls="square_washers"
+                            aria-selected="true" onclick="onTypeClick('Square Washers')">Square Washers</button>
 
-                        <button class="nav-link tabs-text" id="hanger_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#hanger_bolts" type="button" role="tab" aria-controls="hanger_bolts"
-                            aria-selected="true" onclick="onTypeClick('Hanger Bolts')">Hanger Bolts</button>
-
-                        <button class="nav-link tabs-text" id="carriage_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#carriage_bolts" type="button" role="tab" aria-controls="carriage_bolts"
-                            aria-selected="true" onclick="onTypeClick('Carriage Bolts')">Carriage Bolts</button>
-
-                        <button class="nav-link tabs-text" id="t_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#t_bolts" type="button" role="tab" aria-controls="t_bolts"
-                            aria-selected="true" onclick="onTypeClick('T Bolts')">T Bolts</button>
+                        <button class="nav-link tabs-text" id="toothed_lock_washers_tab" data-bs-toggle="pill"
+                            data-bs-target="#toothed_lock_washers" type="button" role="tab"
+                            aria-controls="toothed_lock_washers" aria-selected="true"
+                            onclick="onTypeClick('Toothed Lock Washers')">Toothed Lock Washers</button>
                     </div>
 
                     <div class="tab-content" id="v-pills-tabContent">
 
-                        <div class="tab-pane fade show active" id="allen_cap_bolts" role="tabpanel"
-                            aria-labelledby="allen_cap_bolts_tab" tabindex="0">
+                        <div class="tab-pane fade show active" id="bevel_washers" role="tabpanel"
+                            aria-labelledby="bevel_washers_tab" tabindex="0">
 
                             <div class="detail-section">
                                 <div class="detail-title mb-20 mt-40">
                                     <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Allen Cap Bolts</h1>
+                                    <h1 class="clr-primary">Bevel Washers</h1>
                                 </div>
                                 <div class="d-flex product-detail-wrapper">
                                     <div class="product-description">
-                                        <p class="clr-text-black">An Allen cap bolt, also known as a socket head cap
-                                            screw, is a type
-                                            of fastener characterized by its cylindrical head and hexagonal drive hole.
-                                            The term "Allen" comes from the Allen Manufacturing Company, which
-                                            originally
-                                            produced hexagonal socket screws and tools.</p>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/allen_cap_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="special_bolts" role="tabpanel"
-                            aria-labelledby="special_bolts_tab" tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-20 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Special Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-                                        <!-- TODO: Data need to insert DATA_NOT_FOUND -->
-                                        <p class="clr-text-black">An Allen cap bolt, also known as a socket head cap
-                                            screw, is a type
-                                            of fastener characterized by its cylindrical head and hexagonal drive hole.
-                                            The term "Allen" comes from the Allen Manufacturing Company, which
-                                            originally
-                                            produced hexagonal socket screws and tools.</p>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/special_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="j_shoulder_bolts" role="tabpanel"
-                            aria-labelledby="j_shoulder_bolts_tab" tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">J Shoulder Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-                                        <p class="clr-text-black">A J shoulder bolt, also known as a shoulder screw,
-                                            features an unthreaded shoulder between the head and the threaded part. The
-                                            shoulder allows for precise alignment and smooth movement in mechanical
-                                            assemblies. Commonly used in machinery, fixtures, and jigs, these bolts are
-                                            made from materials like stainless steel and brass. They provide high
-                                            strength and precision but may be more expensive and require specific tools
-                                            for installation.</p>
-
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>J Bolts Diameter: M3- M60</li>
-                                                <li>Standard: ISO, DIN, DIN, ASTM, ANSI, JIS, EN</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Coatings: Black Oxide, Cadmium, Galvanized, Teflon, Xylan, Zinc or
-                                                    other upon request.</li>
-                                            </ul>
-                                        </div>
-                                        <br>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/j_shoulder_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="u_hex_bolts" role="tabpanel" aria-labelledby="u_hex_bolts_tab"
-                            tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">U Hex Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-                                        <p class="clr-text-black">A U-bolt is a U-shaped fastener with threaded ends,
-                                            used to secure pipes, tubes, or cylindrical objects. Commonly made from
-                                            steel, they are used in piping, vehicle suspensions, construction, and
-                                            marine applications. U-bolts provide a strong hold and are easy to install.
+                                        <p class="clr-text-black">Bevel washers are used in applications where the
+                                            surfaces being fastened are not parallel. They help to provide an even load
+                                            distribution when fastening bolted or screwed connections on sloped
+                                            surfaces.
                                         </p>
                                         <br>
                                         <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
+                                            <h4>Technial Specifications</h4>
                                             <ul>
-                                                <li>Size: M6 to M20</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Imperial Size: 3/8 to 8”</li>
-                                                <li>Material: Alloy Steel, Exotic, Low Carbon Steel, Stainless Steel or
-                                                    as per required.</li>
-                                                <li>Standards: BS, DIN, ISO, ASME, UNI, DIN-EN and all international
-                                                    standards.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/u_hex_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="tab-pane fade" id="flange_bolts" role="tabpanel" aria-labelledby="flange_bolts_tab"
-                            tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Flange Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-
-                                        <p class="clr-text-black">A flange bolt has a built-in washer (flange) under the
-                                            head that distributes the load. It's commonly used in automotive and
-                                            industrial applications for securing parts and reducing the need for
-                                            separate washers.</p>
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>Forming: Hot & Cold Forged</li>
-                                                <li>Size: M5 to M30</li>
-                                                <li>Imperial Size: 3/8 to 8”</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Material: Alloy Steel, Exotic, Low Carbon Steel, Stainless Steel or
-                                                    as per requirement</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/flange_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="hanger_bolts" role="tabpanel" aria-labelledby="hanger_bolts_tab"
-                            tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Hanger Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-
-                                        <p class="clr-text-black">A hanger bolt is a fastener with a wood screw thread
-                                            on one end and a machine screw thread on the other. It's used to join wood
-                                            to metal or other materials and often employed in furniture assembly and
-                                            mounting applications.</p>
-
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>Imperial Size: 3/8 to 8”</li>
-                                                <li>Forming: Hot & Cold Forged</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Standards: ASME, BS, DIN, ISO, UNI, DIN-EN</li>
-                                                <li>Customization is also available.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/hanger_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="carriage_bolts" role="tabpanel"
-                            aria-labelledby="carriage_bolts_tab" tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Carriage Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-
-                                        <p class="clr-text-black">A carriage bolt is a type of fastener with a round,
-                                            domed head and a square section beneath the head to prevent turning. The
-                                            shaft is fully threaded. Carriage bolts are commonly used in wood
-                                            connections, where the square section grips the wood to keep the bolt from
-                                            turning when tightened.</p>
-
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>Diameter: M2 – M42</li>
-                                                <li>Length: 10mm to 150mm</li>
-                                                <li>Also available in different Materials & Grades</li>
-                                                <li>Standard: ISO 4017, DIN931, GB5783, DIN, ASTM, ANSI, EN, AS, JIS
+                                                <li>Standard & Specifications: ASME, DIN, ISO.</li>
+                                                <li>Size Range: Inner diameter 3 mm to 50 mm</li>
+                                                <li>Material: Carbon steel, Stainless steel, Brass
+                                                </li>
+                                                <li>Surface Finish: Zinc plating, Black oxide, Passivation
                                                 </li>
                                             </ul>
                                         </div>
-
                                     </div>
                                     <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/carriage_bolts.webp"
+                                        <img class="img-fluid" src="../../images/products/washers/bevel_washers.webp"
                                             alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="t_bolts" role="tabpanel" aria-labelledby="t_bolts_tab"
-                            tabindex="0">
+                        <div class="tab-pane fade" id="flange_washers" role="tabpanel"
+                            aria-labelledby="flange_washers_tab" tabindex="0">
 
                             <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
+                                <div class="detail-title mb-20 mt-40">
                                     <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">T Bolts</h1>
+                                    <h1 class="clr-primary">Flange Washers</h1>
                                 </div>
                                 <div class="d-flex product-detail-wrapper">
                                     <div class="product-description">
-
-                                        <p class="clr-text-black">A T-bolt is a fastener with a T-shaped head that fits
-                                            into a slot or channel. It’s used to secure parts in place by sliding the
-                                            head into the slot and then tightening with a nut. Common in machinery,
-                                            construction, and automotive applications.</p>
-
+                                        <p class="clr-text-black">Flange washers are designed to provide a larger
+                                            bearing surface than standard washers, which helps to distribute the load
+                                            over a larger area. They are commonly used with flange bolts and nuts.
+                                        </p>
                                         <br>
                                         <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
+                                            <h4>Technial Specifications</h4>
                                             <ul>
-                                                <li>Size: M2 to M33</li>
-                                                <li>Length: 3 mm to 200 mm</li>
-                                                <li>Standard: IS, DIN, BS, ASTM, IS 4190, ISO, JIS, GB</li>
-                                                <li>Finish: Black Oxide, Zinc Plating, Hot Dip Galvanized</li>
+                                                <li>Standard & Specifications: ASME, DIN, ISO.</li>
+                                                <li>Size Range: Inner diameter 3 mm to 50 mm</li>
+                                                <li>Material: Carbon steel, Stainless steel, Brass
+                                                </li>
+                                                <li>Surface Finish: Zinc plating, Hot-dip galvanization, Passivation
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/t_bolts.webp" alt="">
+                                        <img class="img-fluid" src="../../images/products/washers/flange_washers.webp"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="tab-pane fade" id="plain_washers" role="tabpanel"
+                            aria-labelledby="plain_washers_tab" tabindex="0">
+
+                            <div class="detail-section">
+                                <div class="detail-title mb-20 mt-40">
+                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                                    <h1 class="clr-primary">Plain Washers</h1>
+                                </div>
+                                <div class="d-flex product-detail-wrapper">
+                                    <div class="product-description">
+                                        <p class="clr-text-black">Plain washers are flat, thin rings used to distribute
+                                            the load of a threaded fastener, such as a screw or nut. They help to
+                                            prevent damage to the surface being fastened.
+                                        </p>
+                                        <br>
+                                        <div class="techniqual-specifications">
+                                            <h4>Technial Specifications</h4>
+                                            <ul>
+                                                <li>Standard & Specifications: ASME, DIN, ISO.</li>
+                                                <li>Size Range: Inner diameter 3 mm to 50 mm</li>
+                                                <li>Material: Carbon steel, Stainless steel, Brass
+                                                </li>
+                                                <li>Surface Finish: Zinc plating, Black oxide, Passivation
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-img">
+                                        <img class="img-fluid" src="../../images/products/washers/plain_washers.webp"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="spring_washers" role="tabpanel"
+                            aria-labelledby="spring_washers_tab" tabindex="0">
+
+                            <div class="detail-section">
+                                <div class="detail-title mb-20 mt-40">
+                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                                    <h1 class="clr-primary">Spring Washers</h1>
+                                </div>
+                                <div class="d-flex product-detail-wrapper">
+                                    <div class="product-description">
+                                        <p class="clr-text-black">Spring washers are designed to prevent loosening due
+                                            to vibrations and dynamic loads. They provide a spring-like action to
+                                            maintain tension in the assembly.
+                                        </p>
+                                        <br>
+                                        <div class="techniqual-specifications">
+                                            <h4>Technial Specifications</h4>
+                                            <ul>
+                                                <li>Standard & Specifications: ASME, DIN, ISO.</li>
+                                                <li>Size Range: Inner diameter 3 mm to 50 mm</li>
+                                                <li>Material: Carbon steel, Stainless steel, Spring steel
+                                                </li>
+                                                <li>Surface Finish: Zinc plating, Black oxide, Passivation
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-img">
+                                        <img class="img-fluid" src="../../images/products/washers/spring_washers.webp"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="square_washers" role="tabpanel"
+                            aria-labelledby="square_washers_tab" tabindex="0">
+
+                            <div class="detail-section">
+                                <div class="detail-title mb-20 mt-40">
+                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                                    <h1 class="clr-primary">Square Washers</h1>
+                                </div>
+                                <div class="d-flex product-detail-wrapper">
+                                    <div class="product-description">
+                                        <p class="clr-text-black">Square washers are used to provide a larger bearing
+                                            surface under the head of a bolt or nut. Their square shape helps to prevent
+                                            rotation, which can be useful in applications where movement needs to be
+                                            restricted.
+                                        </p>
+                                        <br>
+                                        <div class="techniqual-specifications">
+                                            <h4>Technial Specifications</h4>
+                                            <ul>
+                                                <li>Standard & Specifications: ASME, DIN, ISO.</li>
+                                                <li>Size Range: Inner diameter 3 mm to 50 mm</li>
+                                                <li>Material: Carbon steel, Stainless steel, Brass
+                                                </li>
+                                                <li>Surface Finish: Zinc plating, Black oxide, Passivation
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-img">
+                                        <img class="img-fluid" src="../../images/products/washers/square_washers.webp"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="toothed_lock_washers" role="tabpanel"
+                            aria-labelledby="toothed_lock_washers_tab" tabindex="0">
+
+                            <div class="detail-section">
+                                <div class="detail-title mb-20 mt-40">
+                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                                    <h1 class="clr-primary">Toothed Lock Washers</h1>
+                                </div>
+                                <div class="d-flex product-detail-wrapper">
+                                    <div class="product-description">
+                                        <p class="clr-text-black">Toothed lock washers are designed with serrated edges
+                                            or teeth that dig into the surface of the material being fastened. This
+                                            helps to prevent loosening due to vibration and movement.
+                                        </p>
+                                        <br>
+                                        <div class="techniqual-specifications">
+                                            <h4>Technial Specifications</h4>
+                                            <ul>
+                                                <li>Standard & Specifications: ASME, DIN, ISO.</li>
+                                                <li>Size Range: Inner diameter 3 mm to 50 mm</li>
+                                                <li>Material: Carbon steel, Stainless steel, Spring steel
+                                                </li>
+                                                <li>Surface Finish: Zinc plating, Black oxide, Passivation
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-img">
+                                        <img class="img-fluid"
+                                            src="../../images/products/washers/toothed_lock_washers.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
