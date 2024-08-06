@@ -323,7 +323,7 @@ footer .footer-links .product-links h3 {
 }
 
 #about-section .aboutus-wrapper {
-  padding: 80px 0;
+  padding: 80px 40px;
 }
 
 #about-section .aboutus-wrapper h2 {
@@ -332,6 +332,26 @@ footer .footer-links .product-links h3 {
 
 #about-section {
   padding: 0 64px;
+}
+
+.legacy-section .legacy-img img {
+  height: 400px;
+  width: 400px;
+}
+
+.legacy-section .legacy-wrapper {
+  /* text-align: center; */
+  padding: 0 180px 80px;
+}
+
+.legacy-section .legacy-wrapper .legacy-content p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.legacy-wrapper h3 {
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
 .mission-content {
