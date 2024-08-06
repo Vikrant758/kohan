@@ -17,6 +17,14 @@
 
   .mission-wrapper {
     margin-bottom: 30px;
+    flex-direction: column;
+  }
+
+  .mission-wrapper img {
+    Width: 100%;
+    Height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
   }
 
   h2,
@@ -292,6 +300,68 @@
   .product-list .product-list-detail {
     grid-template-columns: 1fr;
   }
+
+  .expertise-section .experties-img img {
+    width: 100%;
+  }
+
+  .expertise-section .experties-img {
+    flex-direction: column;
+  }
+
+  .expertise-section .experties-img img {
+    height: 200px;
+  }
+
+  .expertise-section {
+    padding: 0 0 40px;
+  }
+
+  .expertise-section p {
+    font-size: 16px;
+  }
+
+  .expertise-card-content p {
+    font-size: 16px;
+  }
+
+  .expertise-card-content h3 {
+    font-size: 20px;
+  }
+
+  .expertise-cards .cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-wrapper .mission-content {
+    padding: 24px;
+  }
+
+  .mission-content-data {
+    grid-template-columns: 1fr;
+    padding: 0 24px 32px;
+  }
+
+  .mission-wrapper .maincontent p {
+    font-size: 16px;
+  }
+
+  .core-values-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .core-values {
+    padding: 0 24px 40px;
+  }
+
+  .core-values-container p {
+    height: auto;
+  }
+
+  .core-values-container h5 {
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
@@ -407,9 +477,8 @@
     font-size: 18px;
   }
 
-  .mission-wrapper-section .mission-content .mission-data,
-  .mission-wrapper-section .mission-content .mission-data h3 {
-    width: 400px;
+  .mission-content .mission-data h1 {
+    font-size: 30px;
   }
 
   .contact-us .btn-primary {
@@ -430,6 +499,38 @@
 
   #product-detail .techniqual-specifications li {
     font-size: 18px;
+  }
+
+  .expertise-section .experties-img img {
+    width: 500px;
+  }
+
+  .expertise-card-content p {
+    font-size: 16px;
+  }
+
+  .expertise-card-content h3 {
+    font-size: 20px;
+  }
+
+  .mission-wrapper .mission-content {
+    width: 100%;
+  }
+
+  .mission-wrapper .mission-img {
+    width: 100%;
+  }
+
+  .mission-wrapper .maincontent p {
+    font-size: 16px;
+  }
+
+  .mission-wrapper img {
+    height: 100%;
+  }
+
+  .core-values-container p {
+    font-size: 14px;
   }
 }
 
@@ -458,13 +559,40 @@
     font-size: 22px;
   }
 
-  .mission-wrapper-section .mission-content .mission-data,
-  .mission-wrapper-section .mission-content .mission-data h3 {
-    width: 450px;
-  }
-
   #product-section .product-item h3 {
     font-size: 20px;
+  }
+
+  .expertise-section .experties-img img {
+    width: 550px;
+  }
+
+  .expertise-card-content h3 {
+    font-size: 24px;
+  }
+
+  .expertise-card-content p {
+    font-size: 16px;
+  }
+
+  .mission-wrapper .mission-content {
+    width: 55%;
+  }
+
+  .mission-wrapper .mission-content {
+    width: 100%;
+  }
+
+  .mission-wrapper .mission-img {
+    width: 100%;
+  }
+
+  .mission-wrapper .mission-title {
+    font-size: 30px;
+  }
+
+  .mission-wrapper .maincontent p {
+    font-size: 16px;
   }
 }
 
