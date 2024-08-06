@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0">
-    <title>Kohan | Detailed Bolts Information</title>
+    <title>Kohan | Detailed Pins Information</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../../style.css">
@@ -20,8 +20,8 @@
             const name = searchParams.get('name');
 
             if (id && dataBsTarget) {
-                const selectedActivateButtonId = "allen_cap_bolts_tab";
-                const selectedContentId = "allen_cap_bolts";
+                const selectedActivateButtonId = "clevis_pins_tab";
+                const selectedContentId = "clevis_pins";
                 document.getElementById(selectedActivateButtonId).classList.remove('active');
                 document.getElementById(selectedContentId).classList.remove('active');
                 document.getElementById(selectedContentId).classList.remove('show');
@@ -77,9 +77,15 @@
                                     Special Purpose Fastners
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Nuts</a></li>
-                                    <li><a class="dropdown-item" href="#">Bolts</a></li>
-                                    <li><a class="dropdown-item" href="#">Screws</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -114,313 +120,109 @@
                         aria-orientation="vertical">
                         <h2 class="clr-primary">Bolts</h2>
 
-                        <button class="nav-link tabs-text active" id="allen_cap_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#allen_cap_bolts" type="button" role="tab" aria-controls="allen_cap_bolts"
-                            aria-selected="true" onclick="onTypeClick('Allen Cap Bolts')">Allen Cap Bolts</button>
+                        <button class="nav-link tabs-text active" id="clevis_pins_tab" data-bs-toggle="pill"
+                            data-bs-target="#clevis_pins" type="button" role="tab" aria-controls="clevis_pins"
+                            aria-selected="true" onclick="onTypeClick('Clevis Pins')">Clevis Pins</button>
 
-                        <button class="nav-link tabs-text" id="special_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#special_bolts" type="button" role="tab" aria-controls="special_bolts"
-                            aria-selected="true" onclick="onTypeClick('Special Bolts')">Special Bolts</button>
-
-                        <button class="nav-link tabs-text" id="j_shoulder_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#j_shoulder_bolts" type="button" role="tab" aria-controls="j_shoulder_bolts"
-                            aria-selected="true" onclick="onTypeClick('J Shoulder Bolts')">J Shoulder Bolts</button>
-
-                        <button class="nav-link tabs-text" id="u_hex_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#u_hex_bolts" type="button" role="tab" aria-controls="u_hex_bolts"
-                            aria-selected="true" onclick="onTypeClick('U Hex Bolts')">U Hex Bolts</button>
-
-                        <button class="nav-link tabs-text" id="flange_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#flange_bolts" type="button" role="tab" aria-controls="flange_bolts"
-                            aria-selected="true" onclick="onTypeClick('Flange Bolts')">Flange Bolts</button>
-
-                        <button class="nav-link tabs-text" id="hanger_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#hanger_bolts" type="button" role="tab" aria-controls="hanger_bolts"
-                            aria-selected="true" onclick="onTypeClick('Hanger Bolts')">Hanger Bolts</button>
-
-                        <button class="nav-link tabs-text" id="carriage_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#carriage_bolts" type="button" role="tab" aria-controls="carriage_bolts"
-                            aria-selected="true" onclick="onTypeClick('Carriage Bolts')">Carriage Bolts</button>
-
-                        <button class="nav-link tabs-text" id="t_bolts_tab" data-bs-toggle="pill"
-                            data-bs-target="#t_bolts" type="button" role="tab" aria-controls="t_bolts"
-                            aria-selected="true" onclick="onTypeClick('T Bolts')">T Bolts</button>
+                        <button class="nav-link tabs-text" id="dowel_pins_tab" data-bs-toggle="pill"
+                            data-bs-target="#dowel_pins" type="button" role="tab" aria-controls="dowel_pins"
+                            aria-selected="true" onclick="onTypeClick('Dowel Pins')">Dowel Pins</button>
                     </div>
 
                     <div class="tab-content" id="v-pills-tabContent">
 
-                        <div class="tab-pane fade show active" id="allen_cap_bolts" role="tabpanel"
-                            aria-labelledby="allen_cap_bolts_tab" tabindex="0">
+                        <div class="tab-pane fade show active" id="clevis_pins" role="tabpanel"
+                            aria-labelledby="clevis_pins_tab" tabindex="0">
 
                             <div class="detail-section">
                                 <div class="detail-title mb-20 mt-40">
                                     <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Allen Cap Bolts</h1>
+                                    <h1 class="clr-primary">Clevis Pins</h1>
                                 </div>
                                 <div class="d-flex product-detail-wrapper">
                                     <div class="product-description">
-                                        <p class="clr-text-black">An Allen cap bolt, also known as a socket head cap
-                                            screw, is a type
-                                            of fastener characterized by its cylindrical head and hexagonal drive hole.
-                                            The term "Allen" comes from the Allen Manufacturing Company, which
-                                            originally
-                                            produced hexagonal socket screws and tools.</p>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/allen_cap_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="special_bolts" role="tabpanel"
-                            aria-labelledby="special_bolts_tab" tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-20 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Special Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-                                        <!-- TODO: Data need to insert DATA_NOT_FOUND -->
-                                        <p class="clr-text-black">An Allen cap bolt, also known as a socket head cap
-                                            screw, is a type
-                                            of fastener characterized by its cylindrical head and hexagonal drive hole.
-                                            The term "Allen" comes from the Allen Manufacturing Company, which
-                                            originally
-                                            produced hexagonal socket screws and tools.</p>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/special_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="j_shoulder_bolts" role="tabpanel"
-                            aria-labelledby="j_shoulder_bolts_tab" tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">J Shoulder Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-                                        <p class="clr-text-black">A J shoulder bolt, also known as a shoulder screw,
-                                            features an unthreaded shoulder between the head and the threaded part. The
-                                            shoulder allows for precise alignment and smooth movement in mechanical
-                                            assemblies. Commonly used in machinery, fixtures, and jigs, these bolts are
-                                            made from materials like stainless steel and brass. They provide high
-                                            strength and precision but may be more expensive and require specific tools
-                                            for installation.</p>
-
+                                        <p class="clr-text-black">Clevis pins are cylindrical fasteners with a head at
+                                            one end and one or more holes for securing with a cotter pin or wire. They
+                                            are commonly used in agricultural machinery, construction equipment, and
+                                            various industrial applications where quick assembly and disassembly are
+                                            required. Clevis pins provide a reliable method for connecting and securing
+                                            components in a robust yet easily removable manner.</p>
+                                        <br>
+                                        <p class="clr-text-black">Because of their straightforward design and ease of
+                                            use, clevis pins are ideal for use in applications that require frequent
+                                            assembly and disassembly, such as linkage mechanisms, pivot points, and
+                                            other moving parts.</p>
                                         <br>
                                         <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
+                                            <h4>Technial Specifications</h4>
                                             <ul>
-                                                <li>J Bolts Diameter: M3- M60</li>
-                                                <li>Standard: ISO, DIN, DIN, ASTM, ANSI, JIS, EN</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Coatings: Black Oxide, Cadmium, Galvanized, Teflon, Xylan, Zinc or
-                                                    other upon request.</li>
+                                                <li>Standard & Specifications: ASME, DIN, ISO, JIS, GB.</li>
+                                                <li>Size Range: 1/8 inch to 1 inch in diameter, lengths from 1 inch to 6
+                                                    inches</li>
+                                                <li>Material: Carbon steel, Stainless steel, Aluminum</li>
+                                                <li>Surface Finish: Zinc plating, Galvanization, Black oxide,
+                                                    Passivation</li>
+                                                <li>Tensile Strength: Varies based on material, with steel pins offering
+                                                    the highest strength</li>
+                                                <li>Design: Cylindrical body with a head at one end, one or more holes
+                                                    for securing with a cotter pin or wire</li>
                                             </ul>
                                         </div>
-                                        <br>
                                     </div>
                                     <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/j_shoulder_bolts.webp"
-                                            alt="">
+                                        <img class="img-fluid" src="../../images/products/pins/clevis_pins.webp" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="u_hex_bolts" role="tabpanel" aria-labelledby="u_hex_bolts_tab"
+                        <div class="tab-pane fade" id="dowel_pins" role="tabpanel" aria-labelledby="dowel_pins_tab"
                             tabindex="0">
 
                             <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
+                                <div class="detail-title mb-20 mt-40">
                                     <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">U Hex Bolts</h1>
+                                    <h1 class="clr-primary">Dowel Pins</h1>
                                 </div>
                                 <div class="d-flex product-detail-wrapper">
                                     <div class="product-description">
-                                        <p class="clr-text-black">A U-bolt is a U-shaped fastener with threaded ends,
-                                            used to secure pipes, tubes, or cylindrical objects. Commonly made from
-                                            steel, they are used in piping, vehicle suspensions, construction, and
-                                            marine applications. U-bolts provide a strong hold and are easy to install.
+                                        <p class="clr-text-black">Dowel pins are cylindrical rods used primarily for
+                                            precise alignment of parts in machinery, woodworking, and various industrial
+                                            applications. They ensure that the components are correctly positioned and
+                                            securely held in place. Dowel pins are available in various materials and
+                                            are known for their high strength, precision, and reliability.
+                                        </p>
+                                        <br>
+                                        <p class="clr-text-black">Due to their precision and reliability, dowel pins are
+                                            ideal for applications that demand exact alignment and positioning, such as
+                                            machinery assembly, tooling, and jigs.
                                         </p>
                                         <br>
                                         <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
+                                            <h4>Technial Specifications</h4>
                                             <ul>
-                                                <li>Size: M6 to M20</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Imperial Size: 3/8 to 8”</li>
-                                                <li>Material: Alloy Steel, Exotic, Low Carbon Steel, Stainless Steel or
-                                                    as per required.</li>
-                                                <li>Standards: BS, DIN, ISO, ASME, UNI, DIN-EN and all international
-                                                    standards.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/u_hex_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="tab-pane fade" id="flange_bolts" role="tabpanel" aria-labelledby="flange_bolts_tab"
-                            tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Flange Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-
-                                        <p class="clr-text-black">A flange bolt has a built-in washer (flange) under the
-                                            head that distributes the load. It's commonly used in automotive and
-                                            industrial applications for securing parts and reducing the need for
-                                            separate washers.</p>
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>Forming: Hot & Cold Forged</li>
-                                                <li>Size: M5 to M30</li>
-                                                <li>Imperial Size: 3/8 to 8”</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Material: Alloy Steel, Exotic, Low Carbon Steel, Stainless Steel or
-                                                    as per requirement</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/flange_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="hanger_bolts" role="tabpanel" aria-labelledby="hanger_bolts_tab"
-                            tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Hanger Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-
-                                        <p class="clr-text-black">A hanger bolt is a fastener with a wood screw thread
-                                            on one end and a machine screw thread on the other. It's used to join wood
-                                            to metal or other materials and often employed in furniture assembly and
-                                            mounting applications.</p>
-
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>Imperial Size: 3/8 to 8”</li>
-                                                <li>Forming: Hot & Cold Forged</li>
-                                                <li>Threads: UNC, UNF, ISO, BSW & ACME</li>
-                                                <li>Standards: ASME, BS, DIN, ISO, UNI, DIN-EN</li>
-                                                <li>Customization is also available.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/hanger_bolts.webp"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="carriage_bolts" role="tabpanel"
-                            aria-labelledby="carriage_bolts_tab" tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">Carriage Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-
-                                        <p class="clr-text-black">A carriage bolt is a type of fastener with a round,
-                                            domed head and a square section beneath the head to prevent turning. The
-                                            shaft is fully threaded. Carriage bolts are commonly used in wood
-                                            connections, where the square section grips the wood to keep the bolt from
-                                            turning when tightened.</p>
-
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>Diameter: M2 – M42</li>
-                                                <li>Length: 10mm to 150mm</li>
-                                                <li>Also available in different Materials & Grades</li>
-                                                <li>Standard: ISO 4017, DIN931, GB5783, DIN, ASTM, ANSI, EN, AS, JIS
+                                                <li>Standard & Specifications: ASME, DIN, ISO, JIS, GB.</li>
+                                                <li>Size Range: 1/16 inch to over 1 inch in diameter, lengths from 1/4
+                                                    inch to several inches</li>
+                                                <li>Material: Steel, Stainless steel, Hardened steel, Wood, Plastic
+                                                </li>
+                                                <li>Surface Finish: Polished for low roughness average (RA), Zinc
+                                                    plating, Black oxide, Passivation
+                                                </li>
+                                                <li>Hardness (for metal pins): Rockwell hardness rating: C36-58
+                                                </li>
+                                                <li>Special Properties (for non-metallic pins): Flexibility, Corrosion
+                                                    resistance
                                                 </li>
                                             </ul>
                                         </div>
-
                                     </div>
                                     <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/carriage_bolts.webp"
-                                            alt="">
+                                        <img class="img-fluid" src="../../images/products/pins/dowel_pins.webp" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="tab-pane fade" id="t_bolts" role="tabpanel" aria-labelledby="t_bolts_tab"
-                            tabindex="0">
-
-                            <div class="detail-section">
-                                <div class="detail-title mb-40 mt-40">
-                                    <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                    <h1 class="clr-primary">T Bolts</h1>
-                                </div>
-                                <div class="d-flex product-detail-wrapper">
-                                    <div class="product-description">
-
-                                        <p class="clr-text-black">A T-bolt is a fastener with a T-shaped head that fits
-                                            into a slot or channel. It’s used to secure parts in place by sliding the
-                                            head into the slot and then tightening with a nut. Common in machinery,
-                                            construction, and automotive applications.</p>
-
-                                        <br>
-                                        <div class="techniqual-specifications">
-                                            <h4>Technial Specification:</h4>
-                                            <ul>
-                                                <li>Size: M2 to M33</li>
-                                                <li>Length: 3 mm to 200 mm</li>
-                                                <li>Standard: IS, DIN, BS, ASTM, IS 4190, ISO, JIS, GB</li>
-                                                <li>Finish: Black Oxide, Zinc Plating, Hot Dip Galvanized</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-img">
-                                        <img class="img-fluid" src="../../images/products/bolts/t_bolts.webp" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
@@ -466,9 +268,15 @@
             <div class="product-links">
                 <h3 class="text-start mb-20">Special Purpose Fastners</h3>
                 <div class="d-flex flex-column product-quick-link">
-                    <div><a href="#">Nuts</a></div>
-                    <div><a href="#">Bolts</a></div>
-                    <div><a href="#">Screws</a></div>
+                    <div><a
+                            href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
+                    </div>
+                    <div><a
+                            href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
+                    </div>
+                    <div><a
+                            href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
+                    </div>
                 </div>
             </div>
 
