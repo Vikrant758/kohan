@@ -477,11 +477,13 @@ header .dropdown-menu li:last-child .dropdown-item {
   font-weight: 600;
 }
 
-#product-detail {
+#product-detail,
+#contact-section {
   padding: 0 64px;
 }
 
-#product-detail .product-section {
+#product-detail .product-section,
+#contact-section .product-section {
   background-image: url(./images/product-bg.png);
   background-size: cover;
   background-position: center;
@@ -639,4 +641,49 @@ header .dropdown-menu li:last-child .dropdown-item {
 .core-values-container p {
   font-weight: 600;
   height: 100px;
+}
+
+.contact-us-wrapper {
+  padding: 80px 0 128px;
+}
+
+.contact-us-wrapper h3 {
+  margin-bottom: 40px;
+}
+
+.contact-us-wrapper .mission-data h1 {
+  color: var(--white-bg);
+  font-size: 32px;
+}
+
+.contact-us-wrapper .mission-data {
+  gap: 16px;
+}
+
+.contact-us-wrapper .mission-content .maincontent .contact-us-detail {
+  color: var(--secondary-color);
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-us-wrapper .mission-wrapper img {
+  width: 400px;
+  height: 315px;
+}
+
+.contact-us-wrapper .mission-wrapper img {
+  border-radius: 16px 0 0 16px;
+}
+
+.contact-us-wrapper .mission-wrapper {
+  grid-template-columns: 40% 60%;
+}
+
+.contact-us-wrapper .maincontent a {
+  color: var(--white-bg);
+  font-size: 16px;
+}
+
+.text-justify {
+  text-align: justify;
 }
