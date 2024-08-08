@@ -389,9 +389,31 @@
   .contact-us-wrapper .mission-data h1 {
     margin-bottom: 0;
   }
+
   .contact-us-wrapper .mission-wrapper img {
     width: 400px;
     height: 100%;
+  }
+  .aboutus-wrapper p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .legacy-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .legacy-grid .legacy-content {
+    order: 1;
+  }
+
+  .expertise-section p.description {
+    font-size: 16px;
+  }
+
+  .legacy-section .legacy-wrapper {
+    padding: 0 0 40px;
   }
 }
 

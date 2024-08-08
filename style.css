@@ -24,7 +24,7 @@ header .nav-item .nav-link.active {
 .aboutus-wrapper p {
   margin-bottom: 20px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #home-section .carousel-indicators [data-bs-target] {
@@ -323,7 +323,7 @@ footer .footer-links .product-links h3 {
 }
 
 #about-section .aboutus-wrapper {
-  padding: 80px 40px;
+  padding: 80px 40px 60px;
 }
 
 #about-section .aboutus-wrapper h2 {
@@ -337,6 +337,8 @@ footer .footer-links .product-links h3 {
 .legacy-section .legacy-img img {
   height: 400px;
   width: 400px;
+  object-fit: contain;
+  background-color: var(--white-bg);
 }
 
 .legacy-section .legacy-wrapper {
@@ -345,13 +347,14 @@ footer .footer-links .product-links h3 {
 }
 
 .legacy-section .legacy-wrapper .legacy-content p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .legacy-wrapper h3 {
   font-weight: 700;
   text-transform: capitalize;
+  font-size: 26px;
 }
 
 .mission-content-data {
@@ -686,4 +689,10 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 .text-justify {
   text-align: justify;
+}
+
+.legacy-grid {
+  grid-template-columns: 60% 40%;
+  margin-top: 40px;
+  gap: 40px;
 }
