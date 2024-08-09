@@ -193,6 +193,10 @@
     padding: 0 24px;
   }
 
+  #capabilities-section {
+    padding: 0 24px ;
+  }
+
   #about-section .aboutus-wrapper {
     padding: 40px 0;
   }
@@ -202,6 +206,27 @@
   }
 
   .legacy-section .legacy-wrapper .legacy-content p {
+    font-size: 16px;
+  }
+
+  #capabilities-section .product-section {
+    height: 300px;
+  }
+
+  .capabilties-wrapper .capabilities-img img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .capabilities-content h3 {
+    font-size: 20px;
+  }
+
+  .capbilites-wrapper-content {
+    gap: 10px;
+  }
+
+  .capabilities-content .size p {
     font-size: 16px;
   }
 
@@ -394,6 +419,7 @@
     width: 400px;
     height: 100%;
   }
+
   .aboutus-wrapper p {
     margin-bottom: 0;
     font-size: 16px;
