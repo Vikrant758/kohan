@@ -752,3 +752,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 .capbilites-wrapper-content .size {
   gap: 20px;
 }
+
+.contact-us-wrapper .mission-wrapper {
+  margin-bottom: 30px;
+}
