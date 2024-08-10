@@ -16,15 +16,19 @@
   }
 
   .mission-wrapper {
-    margin-bottom: 30px;
-    flex-direction: column;
+    /* margin-bottom: 30px; */
+    grid-template-columns: 1fr;
   }
 
   .mission-wrapper img {
     Width: 100%;
-    Height: 250px;
+    Height: 200px;
     object-fit: cover;
     border-radius: 16px 16px 0 0;
+  }
+
+  .contact-us .btn-primary {
+    width: 60% !important;
   }
 
   h2,
@@ -194,7 +198,7 @@
   }
 
   #capabilities-section {
-    padding: 0 24px ;
+    padding: 0 24px;
   }
 
   #about-section .aboutus-wrapper {
@@ -365,7 +369,7 @@
   }
 
   .mission-wrapper .mission-content {
-    padding: 24px;
+    padding: 12px;
   }
 
   .mission-content-data {
@@ -373,9 +377,9 @@
     padding: 0 24px 32px;
   }
 
-  .mission-wrapper .maincontent p {
+  /* .mission-wrapper .maincontent p {
     font-size: 16px;
-  }
+  } */
 
   .core-values-container {
     grid-template-columns: 1fr;
@@ -403,7 +407,7 @@
   }
 
   .contact-us-wrapper .mission-wrapper .maincontent p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .contact-us-wrapper .mission-content .contact-svg {
@@ -441,11 +445,30 @@
   .legacy-section .legacy-wrapper {
     padding: 0 0 40px;
   }
+
+  .approach-section .approach-content .approach-detail img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .mission-wrapper .maincontent p {
+    font-size: 14px;
+  }
+
+  .mission-content .mission-data h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .mission-content .mission-data svg {
+    height: 20px;
+    width: 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
   #home-section header .navbar {
-    padding: 24px 0;
+    padding: 24px 24px;
   }
 
   #home-section {
@@ -488,6 +511,50 @@
   .industry-wrapper .industry-text .industry-content h3 {
     font-size: 16px;
   }
+
+  .approach-section .approach-content .approach-detail img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .contact-us .contact-content h1 {
+    font-size: 24px;
+  }
+
+  .contact-us .btn-primary {
+    font-size: 24px;
+    width: 50%;
+  }
+
+  .contact-us .d-flex {
+    gap: 16px;
+  }
+
+  .legacy-section .legacy-wrapper {
+    padding: 0 0px 40px;
+  }
+
+  .legacy-section .legacy-wrapper .legacy-content p {
+    font-size: 16px;
+  }
+
+  .expertise-section .experties-img {
+    flex-direction: column;
+  }
+
+  .product-detail .product-item .product-img img {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+  }
+
+  #product-section .product-item h3 {
+    font-size: 18px;
+  }
+
+  #product-section .product-list .product-detail {
+    height: 335px;
+  }
 }
 
 @media (min-width: 820px) and (max-width:1024px) {
@@ -501,7 +568,130 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width:1200px) {}
+@media (min-width: 1024px) and (max-width:1200px) {
+  .products-wrapper {
+    grid-template-columns: repeat(3, 295px);
+  }
+
+  #home-section .number-count .number {
+    font-size: 40px;
+  }
+
+  #home-section .number-count .count-detail {
+    padding: 0 40px;
+  }
+
+  header .nav-item .nav-link,
+  header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+
+  header .navbar {
+    padding: 48px 15px;
+  }
+
+  header .navbar-nav {
+    gap: 25px;
+  }
+
+  #home-section .aboutus-wrapper p {
+    font-size: 20px;
+  }
+
+  .expertise-section .experties-img {
+    flex-direction: column;
+  }
+
+  .legacy-section .legacy-wrapper {
+    padding: 0 50px 80px;
+  }
+
+  .legacy-section .legacy-wrapper .legacy-content p {
+    font-size: 16px;
+  }
+
+  .expertise-cards .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .expertise-card-content p {
+    font-size: 16px;
+  }
+
+  .expertise-card-content h3 {
+    font-size: 24px;
+  }
+
+  .mission-wrapper .maincontent p {
+    font-size: 16px;
+  }
+
+  .mission-wrapper .mission-content h1 {
+    font-size: 24px;
+  }
+
+  .mission-wrapper .mission-img {
+    /* width: 40%; */
+  }
+
+  .mission-content-data {
+    padding: 0px 24px;
+  }
+
+  .mission-wrapper .mission-content {
+    padding: 24px;
+  }
+
+  .mission-wrapper img {
+    height: 100%;
+  }
+
+  .core-values-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-us .contact-content h1 {
+    font-size: 24px;
+  }
+
+  .contact-us .btn-primary {
+    font-size: 24px;
+  }
+
+  #product-section .product-item h3 {
+    font-size: 18px;
+  }
+
+  .product-detail .product-item .product-img img {
+    object-fit: contain;
+  }
+
+  .our-product-section .product-detail {
+    padding: 20px;
+    height: 335px;
+  }
+
+  footer .footer-links .product-links h3 {
+    font-size: 18px;
+  }
+
+  footer .footer-links .product-links a {
+    font-size: 16px;
+  }
+
+  footer .copyright {
+    font-size: 16px;
+  }
+
+  #product-section .product-item h3 {
+    font-size: 18px;
+  }
+
+  #product-section .product-list {
+    padding: 40px 0;
+  }
+}
+
 
 @media (min-width: 1201px) and (max-width:1366px) {
 

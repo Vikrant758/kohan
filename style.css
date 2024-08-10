@@ -251,7 +251,8 @@ header .navbar {
 }
 
 .certifications .certifications-wrapper img {
-  height: 200px
+  height: 200px;
+  object-fit: contain;
 }
 
 .certifications h2 {
@@ -389,6 +390,7 @@ footer .footer-links .product-links h3 {
   border-radius: 16px;
   background: linear-gradient(106deg, #151E6D 0%, rgba(21, 30, 109, 0.80) 100%);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  grid-template-columns: 40% 60%;
 }
 
 .mission-wrapper img {
