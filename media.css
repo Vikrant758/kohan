@@ -464,6 +464,15 @@
     height: 20px;
     width: 20px;
   }
+
+  .contact-us-wrapper .mission-wrapper {
+    margin-bottom: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-us-wrapper .mission-wrapper img {
+    border-radius: 16px 16px 0 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
@@ -554,6 +563,74 @@
 
   #product-section .product-list .product-detail {
     height: 335px;
+  }
+
+  footer .footer-links {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+
+  #product-detail .product-img img {
+    object-fit: contain;
+  }
+
+  #product-detail .product-detail-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #product-detail .product-detail-wrapper .product-description {
+    order: 1;
+  }
+
+  #product-detail .product-list .nav-pills {
+    padding: 16px;
+  }
+
+  #product-detail .product-list .nav-pills .nav-link {
+    font-size: 18px;
+  }
+
+  #product-detail {
+    padding: 0 45px 0 30px;
+  }
+
+  .capabilties-wrapper .capabilities-img img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+
+  .capabilities-content .size p {
+    font-size: 16px;
+  }
+
+  .capbilites-wrapper-content {
+    gap: 15px;
+  }
+
+  .contact-us-wrapper .mission-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-us-wrapper .mission-wrapper img {
+    border-radius: 16px 16px 0 0;
+  }
+
+  .contact-us.mission-wrapper .mission-content {
+    padding: 20px
+  }
+
+  .contact-us-wrapper .mission-wrapper img {
+    height: 200px;
+  }
+
+  .contact-us-wrapper .mission-wrapper .mission-content {
+    height: 300px;
+  }
+
+  .contact-us-wrapper .mission-data h1 {
+    font-size: 24px;
+    margin-bottom: 0;
   }
 }
 
@@ -689,6 +766,14 @@
 
   #product-section .product-list {
     padding: 40px 0;
+  }
+
+  .capabilties-wrapper .capabilities-img img {
+    object-fit: contain;
+  }
+
+  .contact-us-wrapper .mission-wrapper .mission-content h1 {
+    margin-bottom: 0;
   }
 }
 
