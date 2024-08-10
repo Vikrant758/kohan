@@ -771,7 +771,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 #product-detail .product-list.our-product-section {
-  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-image: url(./images/bg-image/bottom_icon.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 18%;
@@ -779,7 +779,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 #product-section .product-list.our-product-section {
-  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-image: url(./images/bg-image/bottom_icon.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 13%;
@@ -788,7 +788,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 .contact-us-wrapper,
 .capabilties-wrapper {
-  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-image: url(./images/bg-image/bottom_icon.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 13%;
@@ -796,7 +796,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 .core-values {
-  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-image: url(./images/bg-image/bottom_icon.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 9%;
