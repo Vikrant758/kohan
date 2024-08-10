@@ -154,3 +154,31 @@ footer .copyright {
   color: var(--faint-green);
   font-weight: 500;
 }
+
+.carousel-btn {
+  border: none; 
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-btn .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-btn:not(.active) .icon {
+  background-image: url('./images/sliders/slider-dots.svg');
+}
+
+.carousel-btn.active {
+  background-color: white;
+}
+
+.carousel-btn.active .icon {
+  background-image: url('./images/sliders/selected_icon.svg');
+}
