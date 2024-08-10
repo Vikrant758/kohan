@@ -473,6 +473,10 @@
   .contact-us-wrapper .mission-wrapper img {
     border-radius: 16px 16px 0 0;
   }
+
+  .capabilities-container {
+    padding: 0 24px;
+  }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
