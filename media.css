@@ -697,6 +697,10 @@
   #product-detail, #contact-section {
     padding: 0 34px;
   }
+
+  .capabilities-content h3 {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 820px) and (max-width:1024px) {

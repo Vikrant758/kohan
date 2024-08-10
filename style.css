@@ -742,6 +742,9 @@ header .dropdown-menu li:last-child .dropdown-item {
   margin-bottom: 40px;
 }
 
+#capabilities-section {
+  padding: 0 34px;
+}
 
 .capabilities-content .size p {
   font-size: 20px;
