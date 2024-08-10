@@ -434,7 +434,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 /* Product Page */
-#product-section {
+.product-main {
   padding: 0 64px;
 }
 
@@ -727,6 +727,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   align-items: center;
 }
 
+
 .capabilties-wrapper .capabilities-img img {
   height: 280px;
   width: 224px;
@@ -767,4 +768,37 @@ header .dropdown-menu li:last-child .dropdown-item {
 .certification-content {
   display: flex;
   gap: 30px;
+}
+
+#product-detail .product-list.our-product-section {
+  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 18%;
+  margin-bottom: 30px;
+}
+
+#product-section .product-list.our-product-section {
+  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 13%;
+  margin-bottom: 30px;
+}
+
+.contact-us-wrapper,
+.capabilties-wrapper {
+  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 13%;
+  margin-bottom: 30px;
+}
+
+.core-values {
+  background-image: url(../../images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 9%;
+  margin-bottom: 30px;
 }
