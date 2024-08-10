@@ -662,6 +662,10 @@
     gap: 20px;
   }
 
+  #about-section .aboutus-wrapper {
+    padding: 40px 0px 60px
+  }
+
   .about-mission .mission-wrapper img,
   .about-mission .mission-img {
     border-radius: 16px 16px 0 0;
