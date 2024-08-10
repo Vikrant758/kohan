@@ -244,10 +244,10 @@ header .navbar {
 }
 
 .certifications .certifications-wrapper {
-  display: flex;
+  /* display: flex;
   gap: 128px;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .certifications .certifications-wrapper img {
@@ -759,3 +759,5 @@ header .dropdown-menu li:last-child .dropdown-item {
 .contact-us-wrapper .mission-wrapper {
   margin-bottom: 30px;
 }
+
+
