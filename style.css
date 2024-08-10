@@ -760,4 +760,11 @@ header .dropdown-menu li:last-child .dropdown-item {
   margin-bottom: 30px;
 }
 
+.certification-content.slick-slide {
+  width: 300px !important;
+}
 
+.certification-content {
+  display: flex;
+  gap: 30px;
+}
