@@ -12,6 +12,14 @@ header .navbar-nav {
   gap: 40px;
 }
 
+.backward-wave {
+  background-image: url(./images/bg-image/backward_wave.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 #home-section {
   padding: 0 64px;
 }
