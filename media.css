@@ -689,6 +689,10 @@
     grid-template-columns: 1fr;
     justify-content: flex-start;
   }
+
+  #product-detail, #contact-section {
+    padding: 0 34px;
+  }
 }
 
 @media (min-width: 820px) and (max-width:1024px) {
@@ -831,6 +835,10 @@
 
   .contact-us-wrapper .mission-wrapper .mission-content h1 {
     margin-bottom: 0;
+  }
+
+  #product-detail, #contact-section {
+    padding: 0px 40px;
   }
 }
 

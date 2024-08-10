@@ -133,7 +133,7 @@ header .navbar {
 .product-detail .product-item .product-img img {
   height: 250px;
   width: 250px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .approach-detail p {
@@ -501,6 +501,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 #contact-section .product-section {
   background-image: url(./images/product-bg.png);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   height: 600px;
   border-radius: 16px;
@@ -536,7 +537,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 #product-detail .product-img img {
   height: 280px;
   width: 280px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .product-list .product-list-detail {
