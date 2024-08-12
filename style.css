@@ -244,10 +244,10 @@ header .navbar {
 }
 
 .certifications .certifications-wrapper {
-  /* display: flex;
+  display: flex;
   gap: 128px;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 
 .certifications .certifications-wrapper img {
@@ -744,7 +744,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 #capabilities-section {
-  padding: 0 34px;
+  /* padding: 0 .certifications .certifications-wrapper34px; */
 }
 
 .capabilities-content .size p {
@@ -768,6 +768,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 .certification-content {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 #product-detail .product-list.our-product-section {
