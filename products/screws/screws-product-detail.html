@@ -2,636 +2,618 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0">
-    <title>Kohan | Detailed Bolts Information</title>
-    <meta name="description"
-        content="Kohan Industry Pvt Ltd - A trusted name in the fastener manufacturing sector since 1978. Explore our wide range of high-quality industrial fasteners, including bolts, screws, nuts, and washers, designed to meet the demands of various industries.">
-    <meta name="keywords"
-        content="Kohan, industrial fasteners, bolts, screws, nuts, washers, fastener manufacturer, fastener exporter, high-quality fasteners, durable fasteners, Kohan Industry Pvt Ltd">
-    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../../theme.css">
-    <link rel="stylesheet" href="../../media.css">
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const url = window.location.href;
-            console.log(url);
-            const urlObj = new URL(url);
-            const searchParams = new URLSearchParams(urlObj.search);
-            const id = searchParams.get('id');
-            const dataBsTarget = searchParams.get('data-bs-target');
-            const name = searchParams.get('name');
+  <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0">
+  <title>Kohan | Detailed Bolts Information</title>
+  <meta name="description"
+    content="Kohan Industry Pvt Ltd - A trusted name in the fastener manufacturing sector since 1978. Explore our wide range of high-quality industrial fasteners, including bolts, screws, nuts, and washers, designed to meet the demands of various industries.">
+  <meta name="keywords"
+    content="Kohan, industrial fasteners, bolts, screws, nuts, washers, fastener manufacturer, fastener exporter, high-quality fasteners, durable fasteners, Kohan Industry Pvt Ltd">
+  <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../theme.css">
+  <link rel="stylesheet" href="../../media.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const url = window.location.href;
+      console.log(url);
+      const urlObj = new URL(url);
+      const searchParams = new URLSearchParams(urlObj.search);
+      const id = searchParams.get('id');
+      const dataBsTarget = searchParams.get('data-bs-target');
+      const name = searchParams.get('name');
 
-            if (id && dataBsTarget) {
-                const selectedActivateButtonId = "dry_wall_screws_tab";
-                const selectedContentId = "dry_wall_screws";
-                document.getElementById(selectedActivateButtonId).classList.remove('active');
-                document.getElementById(selectedContentId).classList.remove('active');
-                document.getElementById(selectedContentId).classList.remove('show');
+      if (id && dataBsTarget) {
+        const selectedActivateButtonId = "dry_wall_screws_tab";
+        const selectedContentId = "dry_wall_screws";
+        document.getElementById(selectedActivateButtonId).classList.remove('active');
+        document.getElementById(selectedContentId).classList.remove('active');
+        document.getElementById(selectedContentId).classList.remove('show');
 
-                document.getElementById(id).classList.add('active');
-                document.getElementById(dataBsTarget).classList.add('active');
-                document.getElementById(dataBsTarget).classList.add('show');
-                document.getElementById("imageHeading").innerText = name;
-            }
+        document.getElementById(id).classList.add('active');
+        document.getElementById(dataBsTarget).classList.add('active');
+        document.getElementById(dataBsTarget).classList.add('show');
+        document.getElementById("imageHeading").innerText = name;
+      }
 
-            // console.log(`Name: ${id} ${dataBsTarget}`);
-        });
-    </script>
+      // console.log(`Name: ${id} ${dataBsTarget}`);
+    });
+  </script>
 </head>
 
 <body>
-    <div class="backward-wave">
-        <div id="product-detail">
-            <header>
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid p-0">
-                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.svg" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../../aboutus.html">About Us</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link active dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Products
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../../products/nuts/nuts.html">Nuts</a></li>
-                                        <li><a class="dropdown-item" href="../../products/bolts/bolts.html">Bolts</a>
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                                href="../../products/washers/washers.html">Washers</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="../../products/screws/screws.html">Screws</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="../../products/pins/pins.html">Pins</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Special Purpose Fastners
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item"
-                                                href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                                href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                                href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../../capabilities.html">Capabilities</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Infrastructure</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-            </header>
-
-            <div class="product-section menu-spacer">
-                <div class="product-container">
-                    <div class="product-text">
-                        <h2 id="imageHeading" class="text-center text-white">Products</h2>
-                    </div>
-                </div>
+  <div class="backward-wave">
+    <div id="product-detail">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../../aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../../products/nuts/nuts.html">Nuts</a></li>
+                    <li><a class="dropdown-item" href="../../products/bolts/bolts.html">Bolts</a>
+                    </li>
+                    <li><a class="dropdown-item" href="../../products/washers/washers.html">Washers</a>
+                    </li>
+                    <li><a class="dropdown-item" href="../../products/screws/screws.html">Screws</a>
+                    </li>
+                    <li><a class="dropdown-item" href="../../products/pins/pins.html">Pins</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Special Purpose Fastners
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item"
+                        href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
+                    </li>
+                    <li><a class="dropdown-item"
+                        href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
+                    </li>
+                    <li><a class="dropdown-item"
+                        href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../../capabilities.html">Capabilities</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Infrastructure</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="../../contact-us.html">Contact Us</a>
+                </li>
+              </ul>
             </div>
+          </div>
+        </nav>
 
+      </header>
 
-            <div class="product-list our-product-section">
-                <div class="container">
-                    <div class="d-flex align-items-start product-list-detail">
-                        <div class="nav flex-column nav-pills me-3 align-items-start" id="v-pills-tab" role="tablist"
-                            aria-orientation="vertical">
-                            <h2 class="clr-primary">Bolts</h2>
-
-                            <button class="nav-link tabs-text active" id="dry_wall_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#dry_wall_screws" type="button" role="tab"
-                                aria-controls="dry_wall_screws" aria-selected="true"
-                                onclick="onTypeClick('Drywell Screws')">Drywell Screws</button>
-
-                            <button class="nav-link tabs-text" id="hex_coach_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#hex_coach_screws" type="button" role="tab"
-                                aria-controls="hex_coach_screws" aria-selected="true"
-                                onclick="onTypeClick('Hex Coach Screws')">Hex Coach Screws</button>
-
-                            <button class="nav-link tabs-text" id="self_drilling_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#self_drilling_screws" type="button" role="tab"
-                                aria-controls="self_drilling_screws" aria-selected="true"
-                                onclick="onTypeClick('Self Drilling Screws')">Self Drilling Screws</button>
-
-                            <button class="nav-link tabs-text" id="sems_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#sems_screws" type="button" role="tab" aria-controls="sems_screws"
-                                aria-selected="true" onclick="onTypeClick('Sems Screws')">Sems Screws</button>
-
-                            <button class="nav-link tabs-text" id="socket_cap_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#socket_cap_screws" type="button" role="tab"
-                                aria-controls="socket_cap_screws" aria-selected="true"
-                                onclick="onTypeClick('Socket Cap Screws')">Socket Cap Screws</button>
-
-                            <button class="nav-link tabs-text" id="wood_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#wood_screws" type="button" role="tab" aria-controls="wood_screws"
-                                aria-selected="true" onclick="onTypeClick('Wood Screws')">Wood Screws</button>
-
-                            <button class="nav-link tabs-text" id="pan_head_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#pan_head_screws" type="button" role="tab"
-                                aria-controls="pan_head_screws" aria-selected="true"
-                                onclick="onTypeClick('Pan Head Screws')">Pan Head Screws</button>
-
-                            <button class="nav-link tabs-text" id="miniature_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#miniature_screws" type="button" role="tab"
-                                aria-controls="miniature_screws" aria-selected="true"
-                                onclick="onTypeClick('Miniature Screws')">Miniature Screws</button>
-
-                            <button class="nav-link tabs-text" id="special_screws_tab" data-bs-toggle="pill"
-                                data-bs-target="#special_screws" type="button" role="tab" aria-controls="special_screws"
-                                aria-selected="true" onclick="onTypeClick('Special Screws')">Special Screws</button>
-
-                        </div>
-
-                        <div class="tab-content" id="v-pills-tabContent">
-
-                            <div class="tab-pane fade show active" id="dry_wall_screws" role="tabpanel"
-                                aria-labelledby="dry_wall_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Drywell Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">At Kohan, we are a leading exporter of Drywall
-                                                Screws
-                                                in India, offering high-quality screws with a variety of finishes for
-                                                enhanced corrosion and wear resistance. Our screws are available in
-                                                different materials and grades to meet customer needs, providing precise
-                                                and
-                                                reliable solutions for all drywall structures.
-                                            </p>
-                                            <br>
-                                            <p class="clr-text-black">Our Drywall Screws are designed for easy
-                                                installation
-                                                without the need for a pilot hole, making them ideal for quick and
-                                                efficient
-                                                projects. They are easy to remove and can be reused multiple times,
-                                                offering
-                                                a cost-effective solution for repeated use.
-                                            </p>
-                                            <br>
-                                            <p class="clr-text-black">Committed to delivering high-performance products,
-                                                Kohan ensures that our Drywall Screws provide fast, secure installation
-                                                and
-                                                long-lasting durability. Trust Kohan for all your drywall fastening
-                                                needs
-                                                and experience superior quality and performance.
-                                            </p>
-                                            <br>
-                                            <div class="techniqual-specifications">
-                                                <h4>Technical Specification:</h4>
-                                                <ul>
-                                                    <li>Threads: METRIC, BSW, BSF, UNC, UNF or as required</li>
-                                                    <li>Standards: DIN, ISO, JIS, GB, IS, BS, ASTM and all International
-                                                        Standards.</li>
-                                                    <li>Tolerance: +/-0.01mm to +/-0.05mm</li>
-                                                    <li>Material: Alloy Steel, Exotic, Low Carbon Steel, Stainless Steel
-                                                        or
-                                                        as per required.Coating: Grey phosphate, yellow zinc plated,
-                                                        blue
-                                                        zinc plated, and others as per required.</li>
-                                                    <li>Customization is also available.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/dry_wall_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="tab-pane fade" id="hex_coach_screws" role="tabpanel"
-                                aria-labelledby="hex_coach_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Hex Coach Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Hex coach screws are heavy-duty fasteners designed
-                                                for
-                                                securing large or heavy materials. Featuring a hexagonal head, they
-                                                provide
-                                                a strong grip and are ideal for use in wood and masonry applications.
-                                                Their
-                                                robust design ensures reliable performance under high load conditions,
-                                                making them suitable for structural and construction projects. Hex coach
-                                                screws come in various sizes and materials to accommodate different
-                                                needs
-                                                and ensure durability.
-
-
-                                            </p>
-                                            <br>
-                                            <div class="techniqual-specifications">
-                                                <h4>Technical Specification:</h4>
-                                                <ul>
-                                                    <li>Metric Dia: M6 - M20</li>
-                                                    <li>Lengths: 25mm - 250mm</li>
-                                                    <li>Material: As per requirement</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/self_drilling_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="self_drilling_screws" role="tabpanel"
-                                aria-labelledby="self_drilling_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Self Drilling Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Self Drilling Screws are designed for fast and
-                                                efficient installation, eliminating the need for pre-drilling. These
-                                                screws
-                                                have a drill-shaped point that allows them to cut through materials like
-                                                metal and wood, providing a secure and reliable fastening solution. They
-                                                are
-                                                ideal for applications requiring quick and strong assembly, making them
-                                                perfect for construction and manufacturing projects.
-                                            </p>
-                                            <br>
-                                            <p class="clr-text-black">Our goal is to build long-term relationship with
-                                                our
-                                                customers by providing high quality FASTENERS at competitive prices.
-                                            </p>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/self_drilling_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="sems_screws" role="tabpanel"
-                                aria-labelledby="sems_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Sems Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Sems Screws come with pre-assembled washers,
-                                                providing
-                                                a convenient and time-saving fastening solution. These screws ensure a
-                                                secure and stable connection, reducing the risk of loosening over time.
-                                                They
-                                                are commonly used in electronics, automotive, and machinery
-                                                applications,
-                                                offering reliability and efficiency in assembly processes.
-                                            </p>
-                                            <br>
-                                            <p class="clr-text-black">
-                                                Our Screws are perfectly designed for fast and easy installation with a
-                                                long-lasting life. Sems Screws are fast and easy to handle and fit into
-                                                larger assemblies.
-                                            </p>
-                                            <br>
-
-                                            <div class="techniqual-specifications">
-                                                <h4>Technical Specification:</h4>
-                                                <ul>
-                                                    <li>Length: 3mm to 200mm</li>
-                                                    <li>Size: M2 to M33</li>
-                                                    <li>Standard: IS, DIN, BS, ASTM, IS, ISO, JIS, GB</li>
-                                                    <li>Materials: As per customer requirements</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid" src="../../images/products/screws/sems_screws.webp"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="socket_cap_screws" role="tabpanel"
-                                aria-labelledby="socket_cap_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Socket Cap Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Socket Cap Screws feature a cylindrical head with
-                                                an
-                                                internal hex drive, allowing for high torque application and secure
-                                                fastening. These screws are made from high-strength materials, providing
-                                                durability and resistance to wear. They are widely used in machinery,
-                                                automotive, and construction industries where strong and precise
-                                                fastening
-                                                is required.
-                                            </p>
-                                            <br>
-                                            <div class="techniqual-specifications">
-                                                <h4>Technical Specification:</h4>
-                                                <ul>
-                                                    <li>Size: M3 to M16
-                                                    </li>
-                                                    <li>Length: 6mm to 120mm
-                                                    </li>
-                                                    <li>Standard: ASME, BS, DIN, ISO, UNI, DIN-EN
-                                                    </li>
-                                                    <li>Material: As per Customer Requirement
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/socket_caps_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="wood_screws" role="tabpanel"
-                                aria-labelledby="wood_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Wood Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Wood Screws are specifically designed for wood
-                                                applications, offering strong and reliable fastening without splitting
-                                                the
-                                                wood. These screws have a sharp, tapered point that allows for easy
-                                                penetration and secure holding power. They are ideal for woodworking
-                                                projects, furniture assembly, and general construction.
-                                            </p>
-                                            <br>
-                                            <div class="techniqual-specifications">
-                                                <h4>Technical Specification:</h4>
-                                                <ul>
-                                                    <li>Size: M2 to M33</li>
-                                                    <li>Standard: IS, DIN, BS, ASTM, ISO, JIS, GB</li>
-                                                    <li>Material As per Customers</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid" src="../../images/products/screws/wood_screws.webp"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="pan_head_screws" role="tabpanel"
-                                aria-labelledby="pan_head_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Pan Head Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Pan Head Screws have a flat, wide head that
-                                                provides a
-                                                large bearing surface, ensuring a secure and stable connection. These
-                                                screws
-                                                are versatile and can be used in a variety of applications, including
-                                                electronics, machinery, and construction. Their design allows for easy
-                                                installation and removal, making them a practical choice for many
-                                                projects.
-                                            </p>
-                                            <br>
-                                            <div class="techniqual-specifications">
-                                                <h4>Technical Specification:</h4>
-                                                <ul>
-                                                    <li>Material & Size: As per Customer Requirement</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/pan_head_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="miniature_screws" role="tabpanel"
-                                aria-labelledby="miniature_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Miniature Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Miniature Screws are designed for small-scale
-                                                applications where precision and reliability are crucial. These screws
-                                                are
-                                                commonly used in electronics, medical devices, and other intricate
-                                                assemblies. Despite their small size, they offer strong and secure
-                                                fastening, ensuring the integrity of delicate components.
-                                            </p>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/miniature_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="special_screws" role="tabpanel"
-                                aria-labelledby="special_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Special Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Special Screws are customized to meet specific
-                                                requirements for unique applications. These screws can be tailored in
-                                                terms
-                                                of size, shape, material, and finish to provide optimal performance in
-                                                specialized tasks. They are used in industries such as aerospace,
-                                                automotive, and manufacturing where standard screws may not suffice.
-                                            </p>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/special_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="hex_coach_screws" role="tabpanel"
-                                aria-labelledby="hex_coach_screws_tab" tabindex="0">
-
-                                <div class="detail-section">
-                                    <div class="detail-title mb-20 mt-40">
-                                        <img src="../../images/Nuts/produt-icon.webp" alt="">
-                                        <h1 class="clr-primary">Hex Coach Screws</h1>
-                                    </div>
-                                    <div class="d-flex product-detail-wrapper">
-                                        <div class="product-description">
-                                            <p class="clr-text-black">Hex Coach Screws are heavy-duty fasteners designed
-                                                for
-                                                secure and durable installations. They feature a hexagonal head for easy
-                                                tightening with standard tools and are ideal for wood-to-wood or
-                                                metal-to-wood connections. These screws do not require pre-drilling,
-                                                allowing for quick and efficient installation. They offer excellent
-                                                holding
-                                                power and can be reused, making them a cost-effective solution for
-                                                various
-                                                construction and DIY projects.
-                                            </p>
-                                            <br>
-                                            <div class="techniqual-specifications">
-                                                <h4>Technical Specification:</h4>
-                                                <ul>
-                                                    <li>Metric Dia: M6 - M20</li>
-                                                    <li>Lengths: 25mm - 250mm</li>
-                                                    <li>Material: As per requirement</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img class="img-fluid"
-                                                src="../../images/products/screws/hex_coach_screws.webp" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+      <div class="product-section menu-spacer">
+        <div class="product-container">
+          <div class="product-text">
+            <h2 id="imageHeading" class="text-center text-white">Products</h2>
+          </div>
         </div>
+      </div>
+
+
+      <div class="product-list our-product-section">
+        <div class="container">
+          <div class="d-flex align-items-start product-list-detail">
+            <div class="nav flex-column nav-pills me-3 align-items-start" id="v-pills-tab" role="tablist"
+              aria-orientation="vertical">
+              <h2 class="clr-primary">Bolts</h2>
+
+              <button class="nav-link tabs-text active" id="dry_wall_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#dry_wall_screws" type="button" role="tab" aria-controls="dry_wall_screws"
+                aria-selected="true" onclick="onTypeClick('Drywell Screws')">Drywell Screws</button>
+
+              <button class="nav-link tabs-text" id="hex_coach_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#hex_coach_screws" type="button" role="tab" aria-controls="hex_coach_screws"
+                aria-selected="true" onclick="onTypeClick('Hex Coach Screws')">Hex Coach Screws</button>
+
+              <button class="nav-link tabs-text" id="self_drilling_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#self_drilling_screws" type="button" role="tab" aria-controls="self_drilling_screws"
+                aria-selected="true" onclick="onTypeClick('Self Drilling Screws')">Self Drilling Screws</button>
+
+              <button class="nav-link tabs-text" id="sems_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#sems_screws" type="button" role="tab" aria-controls="sems_screws" aria-selected="true"
+                onclick="onTypeClick('Sems Screws')">Sems Screws</button>
+
+              <button class="nav-link tabs-text" id="socket_cap_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#socket_cap_screws" type="button" role="tab" aria-controls="socket_cap_screws"
+                aria-selected="true" onclick="onTypeClick('Socket Cap Screws')">Socket Cap Screws</button>
+
+              <button class="nav-link tabs-text" id="wood_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#wood_screws" type="button" role="tab" aria-controls="wood_screws" aria-selected="true"
+                onclick="onTypeClick('Wood Screws')">Wood Screws</button>
+
+              <button class="nav-link tabs-text" id="pan_head_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#pan_head_screws" type="button" role="tab" aria-controls="pan_head_screws"
+                aria-selected="true" onclick="onTypeClick('Pan Head Screws')">Pan Head Screws</button>
+
+              <button class="nav-link tabs-text" id="miniature_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#miniature_screws" type="button" role="tab" aria-controls="miniature_screws"
+                aria-selected="true" onclick="onTypeClick('Miniature Screws')">Miniature Screws</button>
+
+              <button class="nav-link tabs-text" id="special_screws_tab" data-bs-toggle="pill"
+                data-bs-target="#special_screws" type="button" role="tab" aria-controls="special_screws"
+                aria-selected="true" onclick="onTypeClick('Special Screws')">Special Screws</button>
+
+            </div>
+
+            <div class="tab-content" id="v-pills-tabContent">
+
+              <div class="tab-pane fade show active" id="dry_wall_screws" role="tabpanel"
+                aria-labelledby="dry_wall_screws_tab" tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Drywell Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">At Kohan, we are a leading exporter of Drywall
+                        Screws
+                        in India, offering high-quality screws with a variety of finishes for
+                        enhanced corrosion and wear resistance. Our screws are available in
+                        different materials and grades to meet customer needs, providing precise
+                        and
+                        reliable solutions for all drywall structures.
+                      </p>
+                      <br>
+                      <p class="clr-text-black">Our Drywall Screws are designed for easy
+                        installation
+                        without the need for a pilot hole, making them ideal for quick and
+                        efficient
+                        projects. They are easy to remove and can be reused multiple times,
+                        offering
+                        a cost-effective solution for repeated use.
+                      </p>
+                      <br>
+                      <p class="clr-text-black">Committed to delivering high-performance products,
+                        Kohan ensures that our Drywall Screws provide fast, secure installation
+                        and
+                        long-lasting durability. Trust Kohan for all your drywall fastening
+                        needs
+                        and experience superior quality and performance.
+                      </p>
+                      <br>
+                      <div class="techniqual-specifications">
+                        <h4>Technical Specification:</h4>
+                        <ul>
+                          <li>Threads: METRIC, BSW, BSF, UNC, UNF or as required</li>
+                          <li>Standards: DIN, ISO, JIS, GB, IS, BS, ASTM and all International
+                            Standards.</li>
+                          <li>Tolerance: +/-0.01mm to +/-0.05mm</li>
+                          <li>Material: Alloy Steel, Exotic, Low Carbon Steel, Stainless Steel
+                            or
+                            as per required.Coating: Grey phosphate, yellow zinc plated,
+                            blue
+                            zinc plated, and others as per required.</li>
+                          <li>Customization is also available.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/dry_wall_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="tab-pane fade" id="hex_coach_screws" role="tabpanel" aria-labelledby="hex_coach_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Hex Coach Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Hex coach screws are heavy-duty fasteners designed
+                        for
+                        securing large or heavy materials. Featuring a hexagonal head, they
+                        provide
+                        a strong grip and are ideal for use in wood and masonry applications.
+                        Their
+                        robust design ensures reliable performance under high load conditions,
+                        making them suitable for structural and construction projects. Hex coach
+                        screws come in various sizes and materials to accommodate different
+                        needs
+                        and ensure durability.
+
+
+                      </p>
+                      <br>
+                      <div class="techniqual-specifications">
+                        <h4>Technical Specification:</h4>
+                        <ul>
+                          <li>Metric Dia: M6 - M20</li>
+                          <li>Lengths: 25mm - 250mm</li>
+                          <li>Material: As per requirement</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/self_drilling_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="self_drilling_screws" role="tabpanel"
+                aria-labelledby="self_drilling_screws_tab" tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Self Drilling Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Self Drilling Screws are designed for fast and
+                        efficient installation, eliminating the need for pre-drilling. These
+                        screws
+                        have a drill-shaped point that allows them to cut through materials like
+                        metal and wood, providing a secure and reliable fastening solution. They
+                        are
+                        ideal for applications requiring quick and strong assembly, making them
+                        perfect for construction and manufacturing projects.
+                      </p>
+                      <br>
+                      <p class="clr-text-black">Our goal is to build long-term relationship with
+                        our
+                        customers by providing high quality FASTENERS at competitive prices.
+                      </p>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/self_drilling_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="sems_screws" role="tabpanel" aria-labelledby="sems_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Sems Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Sems Screws come with pre-assembled washers,
+                        providing
+                        a convenient and time-saving fastening solution. These screws ensure a
+                        secure and stable connection, reducing the risk of loosening over time.
+                        They
+                        are commonly used in electronics, automotive, and machinery
+                        applications,
+                        offering reliability and efficiency in assembly processes.
+                      </p>
+                      <br>
+                      <p class="clr-text-black">
+                        Our Screws are perfectly designed for fast and easy installation with a
+                        long-lasting life. Sems Screws are fast and easy to handle and fit into
+                        larger assemblies.
+                      </p>
+                      <br>
+
+                      <div class="techniqual-specifications">
+                        <h4>Technical Specification:</h4>
+                        <ul>
+                          <li>Length: 3mm to 200mm</li>
+                          <li>Size: M2 to M33</li>
+                          <li>Standard: IS, DIN, BS, ASTM, IS, ISO, JIS, GB</li>
+                          <li>Materials: As per customer requirements</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/sems_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="socket_cap_screws" role="tabpanel" aria-labelledby="socket_cap_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Socket Cap Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Socket Cap Screws feature a cylindrical head with
+                        an
+                        internal hex drive, allowing for high torque application and secure
+                        fastening. These screws are made from high-strength materials, providing
+                        durability and resistance to wear. They are widely used in machinery,
+                        automotive, and construction industries where strong and precise
+                        fastening
+                        is required.
+                      </p>
+                      <br>
+                      <div class="techniqual-specifications">
+                        <h4>Technical Specification:</h4>
+                        <ul>
+                          <li>Size: M3 to M16
+                          </li>
+                          <li>Length: 6mm to 120mm
+                          </li>
+                          <li>Standard: ASME, BS, DIN, ISO, UNI, DIN-EN
+                          </li>
+                          <li>Material: As per Customer Requirement
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/socket_caps_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="wood_screws" role="tabpanel" aria-labelledby="wood_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Wood Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Wood Screws are specifically designed for wood
+                        applications, offering strong and reliable fastening without splitting
+                        the
+                        wood. These screws have a sharp, tapered point that allows for easy
+                        penetration and secure holding power. They are ideal for woodworking
+                        projects, furniture assembly, and general construction.
+                      </p>
+                      <br>
+                      <div class="techniqual-specifications">
+                        <h4>Technical Specification:</h4>
+                        <ul>
+                          <li>Size: M2 to M33</li>
+                          <li>Standard: IS, DIN, BS, ASTM, ISO, JIS, GB</li>
+                          <li>Material As per Customers</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/wood_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="pan_head_screws" role="tabpanel" aria-labelledby="pan_head_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Pan Head Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Pan Head Screws have a flat, wide head that
+                        provides a
+                        large bearing surface, ensuring a secure and stable connection. These
+                        screws
+                        are versatile and can be used in a variety of applications, including
+                        electronics, machinery, and construction. Their design allows for easy
+                        installation and removal, making them a practical choice for many
+                        projects.
+                      </p>
+                      <br>
+                      <div class="techniqual-specifications">
+                        <h4>Technical Specification:</h4>
+                        <ul>
+                          <li>Material & Size: As per Customer Requirement</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/pan_head_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="miniature_screws" role="tabpanel" aria-labelledby="miniature_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Miniature Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Miniature Screws are designed for small-scale
+                        applications where precision and reliability are crucial. These screws
+                        are
+                        commonly used in electronics, medical devices, and other intricate
+                        assemblies. Despite their small size, they offer strong and secure
+                        fastening, ensuring the integrity of delicate components.
+                      </p>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/miniature_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="special_screws" role="tabpanel" aria-labelledby="special_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Special Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Special Screws are customized to meet specific
+                        requirements for unique applications. These screws can be tailored in
+                        terms
+                        of size, shape, material, and finish to provide optimal performance in
+                        specialized tasks. They are used in industries such as aerospace,
+                        automotive, and manufacturing where standard screws may not suffice.
+                      </p>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/special_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="hex_coach_screws" role="tabpanel" aria-labelledby="hex_coach_screws_tab"
+                tabindex="0">
+
+                <div class="detail-section">
+                  <div class="detail-title mb-20 mt-40">
+                    <img src="../../images/Nuts/produt-icon.webp" alt="">
+                    <h1 class="clr-primary">Hex Coach Screws</h1>
+                  </div>
+                  <div class="d-flex product-detail-wrapper">
+                    <div class="product-description">
+                      <p class="clr-text-black">Hex Coach Screws are heavy-duty fasteners designed
+                        for
+                        secure and durable installations. They feature a hexagonal head for easy
+                        tightening with standard tools and are ideal for wood-to-wood or
+                        metal-to-wood connections. These screws do not require pre-drilling,
+                        allowing for quick and efficient installation. They offer excellent
+                        holding
+                        power and can be reused, making them a cost-effective solution for
+                        various
+                        construction and DIY projects.
+                      </p>
+                      <br>
+                      <div class="techniqual-specifications">
+                        <h4>Technical Specification:</h4>
+                        <ul>
+                          <li>Metric Dia: M6 - M20</li>
+                          <li>Lengths: 25mm - 250mm</li>
+                          <li>Material: As per requirement</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-img">
+                      <img class="img-fluid" src="../../images/products/screws/hex_coach_screws.webp" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="contact-us bg-primary">
-        <div class="d-flex justify-content-between">
-            <div class="contact-content">
-                <h1>Requirements, Information or Something else?</h1>
-                <h3 class="text-capitalize">Please be so kind and send us your enquiry.</h3>
-            </div>
-            <button class="btn-primary clr-primary">Contact Us</button>
-        </div>
+  <div class="contact-us bg-primary">
+    <div class="d-flex justify-content-between">
+      <div class="contact-content">
+        <h1>Requirements, Information or Something else?</h1>
+        <h3 class="text-capitalize">Please be so kind and send us your enquiry.</h3>
+      </div>
+      <a href="../../contact-us.html"> <button class="btn-primary clr-primary">Contact Us</button></a>
     </div>
+  </div>
 
 
-    <footer>
-        <div class="footer-links">
-            <div class="logo">
-                <img class="img-fluid" src="../../images/logo.svg" alt="">
-            </div>
-            <div class="product-links">
-                <h3 class="text-start mb-20">Our Company</h3>
-                <div class="d-flex flex-column product-quick-link">
-                    <div><a href="../../aboutus.html">About us</a></div>
-                    <div><a href="#">Capabilities</a></div>
-                    <div><a href="#">Infrastructure</a></div>
-                    <div><a href="#">Contact Us</a></div>
-                </div>
-            </div>
-            <div class="product-links">
-                <h3 class="text-start mb-20">Our Products</h3>
-                <div class="d-flex flex-column product-quick-link">
-                    <div><a href="../../products/nuts/nuts.html">Nuts</a></div>
-                    <div><a href="../../products/bolts/bolts.html">Bolts</a></div>
-                    <div><a href="../../products/washers/washers.html">Washers</a></div>
-                    <div><a href="../../products/screws/screws.html">Screws</a></div>
-                    <div><a href="../../products/pins/pins.html">Pins</a></div>
-                </div>
-            </div>
-            <div class="product-links">
-                <h3 class="text-start mb-20">Special Purpose Fastners</h3>
-                <div class="d-flex flex-column product-quick-link">
-                    <div><a
-                            href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
-                    </div>
-                    <div><a
-                            href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
-                    </div>
-                    <div><a
-                            href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
-                    </div>
-                </div>
-            </div>
-
+  <footer>
+    <div class="footer-links">
+      <div class="logo">
+        <img class="img-fluid" src="../../images/logo.svg" alt="">
+      </div>
+      <div class="product-links">
+        <h3 class="text-start mb-20">Our Company</h3>
+        <div class="d-flex flex-column product-quick-link">
+          <div><a href="../../aboutus.html">About us</a></div>
+          <div><a href="#">Capabilities</a></div>
+          <!-- <div><a href="#">Infrastructure</a></div> -->
+          <div><a href="../../contact-us.html">Contact Us</a></div>
         </div>
-        <div class="border-line"></div>
-        <p class="copyright">© Copyright 2024, Kohan industries. All rights Reserved.</p>
-    </footer>
+      </div>
+      <div class="product-links">
+        <h3 class="text-start mb-20">Our Products</h3>
+        <div class="d-flex flex-column product-quick-link">
+          <div><a href="../../products/nuts/nuts.html">Nuts</a></div>
+          <div><a href="../../products/bolts/bolts.html">Bolts</a></div>
+          <div><a href="../../products/washers/washers.html">Washers</a></div>
+          <div><a href="../../products/screws/screws.html">Screws</a></div>
+          <div><a href="../../products/pins/pins.html">Pins</a></div>
+        </div>
+      </div>
+      <div class="product-links">
+        <h3 class="text-start mb-20">Special Purpose Fastners</h3>
+        <div class="d-flex flex-column product-quick-link">
+          <div><a
+              href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
+          </div>
+          <div><a
+              href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
+          </div>
+          <div><a
+              href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
+          </div>
+        </div>
+      </div>
 
-    <script>
-        function onTypeClick(typeName) {
-            document.getElementById("imageHeading").innerText = typeName;
-        }
-    </script>
+    </div>
+    <div class="border-line"></div>
+    <p class="copyright">© Copyright 2024, Kohan industries. All rights Reserved.</p>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+  <script>
+    function onTypeClick(typeName) {
+      document.getElementById("imageHeading").innerText = typeName;
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
