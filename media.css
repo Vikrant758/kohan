@@ -31,6 +31,10 @@
     width: 60% !important;
   }
 
+  .product-main {
+    padding: 0px;
+  }
+
   h2,
   .h2 {
     font-size: 24px !important;
@@ -494,6 +498,10 @@
   .contact-us-wrapper,
   .capabilties-wrapper {
     background-size: 25%;
+  }
+
+  .backward-wave {
+    background-size: 100% 100%;
   }
 }
 
