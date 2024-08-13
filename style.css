@@ -33,6 +33,7 @@ header .nav-item .nav-link.active {
   margin-bottom: 20px;
   font-weight: 500;
   font-size: 20px;
+  text-align: justify;
 }
 
 #home-section .carousel-indicators [data-bs-target] {
@@ -360,6 +361,7 @@ footer .footer-links .product-links h3 {
 .legacy-section .legacy-wrapper .legacy-content p {
   font-size: 20px;
   font-weight: 500;
+  text-align: justify;
 }
 
 .legacy-wrapper h3 {
@@ -593,6 +595,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 68px;
+  text-align: justify;
 }
 
 .expertise-cards .cards-container {
@@ -622,6 +625,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   font-size: 20px;
   height: 270px;
   font-weight: 500;
+  text-align: justify;
 }
 
 .core-values {
