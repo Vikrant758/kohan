@@ -414,6 +414,7 @@ footer .footer-links .product-links h3 {
   font-size: 20px;
   font-weight: 500;
   margin-top: 10px;
+  text-align: justify;
 
 }
 
@@ -551,6 +552,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 #product-detail .product-list .detail-section .product-description p {
   font-size: 18px;
   font-weight: normal;
+  text-align: justify;
 }
 
 #product-detail .product-detail-wrapper {
@@ -563,11 +565,13 @@ header .dropdown-menu li:last-child .dropdown-item {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 16px;
+  text-align: justify;
 }
 
 #product-detail .techniqual-specifications li {
   font-size: 18px;
   font-weight: 400;
+  text-align: justify;
 }
 
 #product-detail .detail-section .detail-title h1 {
@@ -673,7 +677,8 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 .contact-us-wrapper .mission-data h1 {
   color: var(--white-bg);
-  font-size: 32px;
+  font-size: 26px;
+  margin-bottom: 0;
 }
 
 .contact-us-wrapper .mission-data {
