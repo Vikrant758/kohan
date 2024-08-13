@@ -944,6 +944,10 @@
     padding: 0px 40px;
   }
 
+  .legacy-wrapper h3 {
+    font-size: 16px;
+  }
+
   .industry-grid {
     grid-template-columns: repeat(2, 1fr);
   }
