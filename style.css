@@ -800,13 +800,13 @@ header .dropdown-menu li:last-child .dropdown-item {
   margin-bottom: 30px;
 }
 
-.industry-serve {
+/* .industry-serve {
   background-image: url(./images/bg-image/bottom_icon.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 7%;
   margin-bottom: 30px;
-}
+} */
 
 #manufacturing-section .product-section {
   background-image: url(./images/product-bg.png);
