@@ -266,7 +266,7 @@
   }
 
   .legacy-wrapper h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
   }
 
@@ -512,6 +512,26 @@
   .backward-wave {
     background-size: 100% 100%;
   }
+
+  .industry-serve {
+    padding: 0 24px;
+  }
+
+  .industry-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .industry-serve-wrapper .industry-content {
+    padding: 24px 12px 14px;
+  }
+
+  .industry-serve-wrapper .industry-content p {
+    font-size: 16px;
+  }
+  .industry-serve-wrapper .industry-content h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
 }
 
 
@@ -742,6 +762,39 @@
   #product-detail .product-list.our-product-section {
     background-size: 20%;
   }
+
+  .legacy-wrapper h3 {
+    font-size: 15px;
+  }
+
+  #about-section {
+    padding: 0 55px;
+  }
+
+  .contact-us .btn-primary.about-us {
+    width: 270px;
+    padding: 16px 14px;
+  }
+
+  .industry-serve {
+    padding: 0 24px;
+  }
+
+  .industry-grid {
+    grid-template-columns: repeat(2, 310px);
+  }
+  .industry-serve-wrapper .industry-content h3{
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+
+  .industry-serve-wrapper .industry-content p {
+    font-size: 18px;
+  }
+  
+  .industry-serve-wrapper {
+    height: 365px;
+  }
 }
 
 @media (min-width: 820px) and (max-width:1024px) {
@@ -890,6 +943,14 @@
   #contact-section {
     padding: 0px 40px;
   }
+
+  .industry-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .industry-serve {
+    padding: 0 40px;
+  }
 }
 
 
@@ -1001,6 +1062,28 @@
   .core-values-container p {
     font-size: 14px;
   }
+
+  .legacy-wrapper h3 {
+    font-size: 20px;
+  }
+
+  .legacy-section .legacy-wrapper {
+    padding: 0 70px 80px;
+  }
+
+  .industry-serve-wrapper {
+    height: 450px;
+  }
+
+  .industry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 373px);
+    grid-row-gap: 40px;
+    grid-column-gap: 29px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
 }
 
 @media (min-width: 1367px) and (max-width:1500px) {
@@ -1062,6 +1145,22 @@
 
   .mission-wrapper .maincontent p {
     font-size: 16px;
+  }
+
+  .legacy-wrapper h3 {
+    font-size: 18px;
+  }
+
+  .legacy-section .legacy-wrapper {
+    padding: 0 70px 80px;
+  }
+
+  .industry-serve {
+    padding: 0 40px;
+  }
+
+  .industry-serve-wrapper {
+    height: 425px;
   }
 }
 
