@@ -820,6 +820,10 @@ header .dropdown-menu li:last-child .dropdown-item {
   align-items: center;
 }
 
+.contact-us .contact-content h3 {
+  text-transform: none !important;
+}
+
 .manufacture-wrapper {
   grid-template-columns: 1fr 1fr;
   padding: 40px 0;
