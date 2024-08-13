@@ -807,3 +807,45 @@ header .dropdown-menu li:last-child .dropdown-item {
   background-size: 9%;
   margin-bottom: 30px;
 }
+
+#manufacturing-section .product-section {
+  background-image: url(./images/product-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manufacture-wrapper {
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 0;
+  gap: 40px;
+  align-items: center;
+}
+
+.manufacture-container:nth-child(2n-1) {
+  background-color: #fafafa;
+}
+
+.manufacture-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.manufacture-container {
+  padding: 80px 64px;
+}
+
+.manufacture-content h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.manufacture-content p {
+  text-align: justify;
+  font-size: 18px;
+}

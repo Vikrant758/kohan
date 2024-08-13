@@ -205,6 +205,15 @@
     padding: 0 24px;
   }
 
+  .manufacture-content p {
+    font-size: 16px;
+  }
+
+  .manufacture-wrapper {
+    grid-template-columns: 1fr;
+    padding: 40px 24px;
+  }
+
   #about-section .aboutus-wrapper {
     padding: 40px 0;
   }
