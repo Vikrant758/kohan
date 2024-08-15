@@ -558,8 +558,13 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 #product-detail .product-detail-wrapper {
   display: grid !important;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 1fr;
   align-items: start;
+}
+
+#product-detail .product-detail-wrapper .product-img {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 #product-detail .techniqual-specifications h4 {
@@ -874,6 +879,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   text-transform: capitalize;
   font-weight: 500;
   margin-bottom: 24px;
+  font-size: 24px;
 }
 
 .industry-serve-wrapper .industry-content p {
