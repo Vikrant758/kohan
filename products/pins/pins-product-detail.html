@@ -25,8 +25,8 @@
       const name = searchParams.get('name');
 
       if (id && dataBsTarget) {
-        const selectedActivateButtonId = "clevis_pins_tab";
-        const selectedContentId = "clevis_pins";
+        const selectedActivateButtonId = "guide_pins_tab";
+        const selectedContentId = "guide_pins";
         document.getElementById(selectedActivateButtonId).classList.remove('active');
         document.getElementById(selectedContentId).classList.remove('active');
         document.getElementById(selectedContentId).classList.remove('show');
@@ -67,17 +67,21 @@
                     Products
                   </a>
                   <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../../products/screws/screws.html">Bolts & Screws</a></li>
                     <li><a class="dropdown-item" href="../../products/nuts/nuts.html">Nuts</a></li>
-                    <li><a class="dropdown-item" href="../../products/bolts/bolts.html">Bolts</a>
-                    </li>
-                    <li><a class="dropdown-item" href="../../products/washers/washers.html">Washers</a>
-                    </li>
-                    <li><a class="dropdown-item" href="../../products/screws/screws.html">Screws</a>
-                    </li>
+                    <!-- <li><a class="dropdown-item" href="./products/bolts/bolts.html">Bolts</a></li> -->
+                    <li><a class="dropdown-item" href="../../products/washers/washers.html">Washers</a></li>
+                    <li><a class="dropdown-item" href="../../products/rivets/rivets.html">Rivets</a></li>
                     <li><a class="dropdown-item" href="../../products/pins/pins.html">Pins</a></li>
+                    <li><a class="dropdown-item" href="../../products/studs/studs.html">Studs</a></li>
+                    <li><a class="dropdown-item" href="../../products/specialty_fastners/specialty_fastners.html">Specialty Fasteners</a></li>
+                    <li><a class="dropdown-item" href="../../products/coating_and_surface/coating_and_surface.html">Coating & Surface Finish</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                  <a class="nav-link" href="../../material-grade-standard.html">Material Grade and Standards</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Special Purpose Fastners
@@ -93,13 +97,13 @@
                         href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
                     </li>
                   </ul>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="../../capabilities.html">Capabilities</a>
                 </li>
-                <!-- <li class="nav-item">
-                                   <a class="nav-link" href="#">Infrastructure</a>
-                                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="../../manufacturing.html">Infrastructure</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../../contact-us.html">Contact Us</a>
                 </li>
@@ -124,11 +128,11 @@
           <div class="d-flex align-items-start product-list-detail">
             <div class="nav flex-column nav-pills me-3 align-items-start" id="v-pills-tab" role="tablist"
               aria-orientation="vertical">
-              <h2 class="clr-primary">Bolts</h2>
+              <h2 class="clr-primary">Pins</h2>
 
-              <button class="nav-link tabs-text active" id="clevis_pins_tab" data-bs-toggle="pill"
-                data-bs-target="#clevis_pins" type="button" role="tab" aria-controls="clevis_pins" aria-selected="true"
-                onclick="onTypeClick('Clevis Pins')">Clevis Pins</button>
+              <button class="nav-link tabs-text active" id="guide_pins_tab" data-bs-toggle="pill"
+                data-bs-target="#guide_pins" type="button" role="tab" aria-controls="guide_pins" aria-selected="true"
+                onclick="onTypeClick('Guide Pins')">Guide Pins</button>
 
               <button class="nav-link tabs-text" id="dowel_pins_tab" data-bs-toggle="pill" data-bs-target="#dowel_pins"
                 type="button" role="tab" aria-controls="dowel_pins" aria-selected="true"
@@ -137,16 +141,16 @@
 
             <div class="tab-content" id="v-pills-tabContent">
 
-              <div class="tab-pane fade show active" id="clevis_pins" role="tabpanel" aria-labelledby="clevis_pins_tab"
+              <div class="tab-pane fade show active" id="guide_pins" role="tabpanel" aria-labelledby="guide_pins_tab"
                 tabindex="0">
 
                 <div class="detail-section">
                   <div class="detail-title mb-20 mt-40">
                     <img src="../../images/Nuts/produt-icon.webp" alt="">
-                    <h1 class="clr-primary">Clevis Pins</h1>
+                    <h1 class="clr-primary">Guide Pins</h1>
                   </div>
                   <div class="d-flex product-detail-wrapper">
-                    <div class="product-description">
+                    <!-- <div class="product-description">
                       <p class="clr-text-black">Clevis pins are cylindrical fasteners with a head
                         at
                         one end and one or more holes for securing with a cotter pin or wire.
@@ -181,9 +185,9 @@
                             for securing with a cotter pin or wire</li>
                         </ul>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="product-img">
-                      <img class="img-fluid" src="../../images/products/pins/clevis_pins.webp" alt="">
+                      <img class="img-fluid" src="../../images/products/pins/guide_pins.webp" alt="">
                     </div>
                   </div>
                 </div>
@@ -197,7 +201,7 @@
                     <h1 class="clr-primary">Dowel Pins</h1>
                   </div>
                   <div class="d-flex product-detail-wrapper">
-                    <div class="product-description">
+                    <!-- <div class="product-description">
                       <p class="clr-text-black">Dowel pins are cylindrical rods used primarily for
                         precise alignment of parts in machinery, woodworking, and various
                         industrial
@@ -235,7 +239,7 @@
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="product-img">
                       <img class="img-fluid" src="../../images/products/pins/dowel_pins.webp" alt="">
                     </div>
@@ -264,28 +268,34 @@
   <footer>
     <div class="footer-links">
       <div class="logo">
-        <img class="img-fluid" src="../../images/logo.svg" alt="">
+        <a href="../../index.html"><img class="img-fluid" src="../../images/logo.svg" alt=""></a>
       </div>
       <div class="product-links">
         <h3 class="text-start mb-20">Our Company</h3>
         <div class="d-flex flex-column product-quick-link">
           <div><a href="../../aboutus.html">About us</a></div>
-          <div><a href="#">Capabilities</a></div>
-          <!-- <div><a href="#">Infrastructure</a></div> -->
+          <div><a href="../../material-grade-standard.html">Material Grade and Standards</a></div>
+          <div><a href="../../capabilities.html">Capabilities</a></div>
+          <div><a href="../../manufacturing.html">Infrastructure</a></div>
           <div><a href="../../contact-us.html">Contact Us</a></div>
         </div>
       </div>
       <div class="product-links">
         <h3 class="text-start mb-20">Our Products</h3>
         <div class="d-flex flex-column product-quick-link">
+          <div><a href="../../products/screws/screws.html">Bolts & Screws</a></div>
           <div><a href="../../products/nuts/nuts.html">Nuts</a></div>
-          <div><a href="../../products/bolts/bolts.html">Bolts</a></div>
+          <!-- <div><a href="./products/bolts/bolts.html">Bolts</a></div> -->
           <div><a href="../../products/washers/washers.html">Washers</a></div>
-          <div><a href="../../products/screws/screws.html">Screws</a></div>
+          <div><a href="../../products/rivets/rivets.html">Rivets</a></div>
           <div><a href="../../products/pins/pins.html">Pins</a></div>
+          <div><a href="../../products/studs/studs.html">Studs</a></div>
+          <div><a href="../../products/specialty_fastners/specialty_fastners.html"> Specialty Fasteners</a></div>
+          <div><a href="../../products/coating_and_surface/coating_and_surface.html">Coating & Surface Finish</a></div>
         </div>
       </div>
-      <div class="product-links">
+
+      <!-- <div class="product-links">
         <h3 class="text-start mb-20">Special Purpose Fastners</h3>
         <div class="d-flex flex-column product-quick-link">
           <div><a
@@ -298,7 +308,7 @@
               href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
     <div class="border-line"></div>
