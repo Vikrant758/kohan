@@ -528,6 +528,7 @@
   .industry-serve-wrapper .industry-content p {
     font-size: 16px;
   }
+
   .industry-serve-wrapper .industry-content h3 {
     font-size: 20px;
     margin-bottom: 16px;
@@ -783,7 +784,8 @@
   .industry-grid {
     grid-template-columns: repeat(2, 310px);
   }
-  .industry-serve-wrapper .industry-content h3{
+
+  .industry-serve-wrapper .industry-content h3 {
     font-size: 22px;
     margin-bottom: 18px;
   }
@@ -791,7 +793,7 @@
   .industry-serve-wrapper .industry-content p {
     font-size: 18px;
   }
-  
+
   .industry-serve-wrapper {
     height: 365px;
   }
@@ -1188,4 +1190,9 @@
   #contact-section .container {
     max-width: 1460px;
   }
+
+  .certifications {
+    padding-bottom: 80px;
+  }
+
 }
