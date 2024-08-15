@@ -110,6 +110,7 @@ header .navbar {
   display: inline-block;
   position: relative;
   z-index: 0;
+  height: 450px;
 }
 
 .our-product-section .product-detail:before,
@@ -147,7 +148,7 @@ header .navbar {
 
 .products-wrapper {
   display: grid;
-  grid-template-columns: repeat(5, 325px);
+  grid-template-columns: repeat(4, 325px);
   gap: 40px;
   justify-content: center;
   align-items: center;
@@ -889,4 +890,31 @@ header .dropdown-menu li:last-child .dropdown-item {
   justify-content: center;
   align-items: center;
   margin-bottom: 80px;
+}
+
+#grades-section .product-section {
+  background-image: url(./images/product-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grades-section .material-content {
+  padding: 0 64px;
+}
+
+.material-wrapper {
+  padding: 80px 0;
+}
+
+.material-container .content p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--green-clr);
 }

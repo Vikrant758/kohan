@@ -813,6 +813,10 @@
     grid-template-columns: repeat(3, 295px);
   }
 
+  #home-section .product-content h3 {
+    font-size: 24px;
+  }
+
   #home-section .number-count .number {
     font-size: 40px;
   }
@@ -1171,7 +1175,7 @@
 @media (min-width: 1501px) and (max-width:1750px) {
   #home-section .products-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 325px);
+    grid-template-columns: repeat(4, 325px);
     gap: 40px;
     justify-content: center;
     align-items: center;
