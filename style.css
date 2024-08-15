@@ -565,6 +565,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 #product-detail .product-detail-wrapper .product-img {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr);
+  margin-top: 24px;
 }
 
 #product-detail .techniqual-specifications h4 {
