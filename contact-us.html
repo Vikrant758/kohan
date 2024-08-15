@@ -21,7 +21,7 @@
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid p-0">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt=""></a>
+          <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.svg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,14 +40,22 @@
                   Products
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="products/nuts/nuts.html">Nuts</a></li>
-                  <li><a class="dropdown-item" href="products/bolts/bolts.html">Bolts</a></li>
-                  <li><a class="dropdown-item" href="products/washers/washers.html">Washers</a></li>
-                  <li><a class="dropdown-item" href="products/screws/screws.html">Screws</a></li>
-                  <li><a class="dropdown-item" href="products/pins/pins.html">Pins</a></li>
+                  <li><a class="dropdown-item" href="./products/screws/screws.html">Bolts & Screws</a></li>
+                  <li><a class="dropdown-item" href="./products/nuts/nuts.html">Nuts</a></li>
+                  <!-- <li><a class="dropdown-item" href="./products/bolts/bolts.html">Bolts</a></li> -->
+                  <li><a class="dropdown-item" href="./products/washers/washers.html">Washers</a></li>
+                  <li><a class="dropdown-item" href="./products/washers/washers.html">Rivets</a></li>
+                  <li><a class="dropdown-item" href="./products/pins/pins.html">Pins</a></li>
+                  <li><a class="dropdown-item" href="./products/pins/pins.html">Studs</a></li>
+                  <li><a class="dropdown-item" href="./products/pins/pins.html">Specialty Fasteners</a></li>
+                  <li><a class="dropdown-item" href="./products/coating_and_surface/coating_and_surface.html">Coating &
+                      Surface Finish</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
+                <a class="nav-link" href="material-grade-standard.html">Material Grade and Standards</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Special Purpose Fastners
@@ -63,13 +71,13 @@
                       href="special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
                   </li>
                 </ul>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="capabilities.html">Capabilities</a>
               </li>
-              <!-- <li class="nav-item">
-               <a class="nav-link" href="#">Infrastructure</a>
-              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="manufacturing.html">Infrastructure</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link active" href="contact-us.html">Contact Us</a>
               </li>
@@ -115,41 +123,41 @@
 
                   <a href="https://maps.app.goo.gl/HmEYkoBYPRjyEhzh9" target="_blank">
                     <p class="contact-us-detail"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M16.6673 8.33335C16.6673 12.4942 12.0515 16.8275 10.5015 18.1659C10.3571 18.2744 10.1813 18.3331 10.0007 18.3331C9.81999 18.3331 9.64421 18.2744 9.49982 18.1659C7.94982 16.8275 3.33398 12.4942 3.33398 8.33335C3.33398 6.56524 4.03636 4.86955 5.28661 3.61931C6.53685 2.36907 8.23254 1.66669 10.0007 1.66669C11.7688 1.66669 13.4645 2.36907 14.7147 3.61931C15.9649 4.86955 16.6673 6.56524 16.6673 8.33335Z"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M10 10.8333C11.3807 10.8333 12.5 9.71402 12.5 8.33331C12.5 6.9526 11.3807 5.83331 10 5.83331C8.61929 5.83331 7.5 6.9526 7.5 8.33331C7.5 9.71402 8.61929 10.8333 10 10.8333Z"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <span>Golani Naka, Vasai East, Rajavali, Vasai-Virar, Maharashtra 401208</span>
-                  </p>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.6673 8.33335C16.6673 12.4942 12.0515 16.8275 10.5015 18.1659C10.3571 18.2744 10.1813 18.3331 10.0007 18.3331C9.81999 18.3331 9.64421 18.2744 9.49982 18.1659C7.94982 16.8275 3.33398 12.4942 3.33398 8.33335C3.33398 6.56524 4.03636 4.86955 5.28661 3.61931C6.53685 2.36907 8.23254 1.66669 10.0007 1.66669C11.7688 1.66669 13.4645 2.36907 14.7147 3.61931C15.9649 4.86955 16.6673 6.56524 16.6673 8.33335Z"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M10 10.8333C11.3807 10.8333 12.5 9.71402 12.5 8.33331C12.5 6.9526 11.3807 5.83331 10 5.83331C8.61929 5.83331 7.5 6.9526 7.5 8.33331C7.5 9.71402 8.61929 10.8333 10 10.8333Z"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span>Golani Naka, Vasai East, Rajavali, Vasai-Virar, Maharashtra 401208</span>
+                    </p>
                   </a>
-                  
+
 
                   <a href="mailto:info@kohan.in?cc=sales@kohan.in,&subject=Mail from kohan.co.in Website">
                     <p class="contact-us-detail"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <span>info@kohan.in</span>
-                  </p>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span>info@kohan.in</span>
+                    </p>
                   </a>
 
-                  
-                  <a class="contact-us-detail" href="tel:+918208553734"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
+
+                  <a class="contact-us-detail" href="tel:+918208553734"><svg width="20" height="20" viewBox="0 0 20 20"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M18.3332 14.1V16.6C18.3341 16.8321 18.2866 17.0618 18.1936 17.2744C18.1006 17.4871 17.9643 17.678 17.7933 17.8349C17.6222 17.9918 17.4203 18.1112 17.2005 18.1856C16.9806 18.2599 16.7477 18.2875 16.5165 18.2666C13.9522 17.988 11.489 17.1118 9.32486 15.7083C7.31139 14.4289 5.60431 12.7218 4.32486 10.7083C2.91651 8.53432 2.04007 6.05914 1.76653 3.48331C1.7457 3.25287 1.77309 3.02061 1.84695 2.80133C1.9208 2.58205 2.03951 2.38055 2.1955 2.20966C2.3515 2.03877 2.54137 1.90224 2.75302 1.80875C2.96468 1.71526 3.19348 1.66686 3.42486 1.66665H5.92486C6.32928 1.66267 6.72136 1.80588 7.028 2.06959C7.33464 2.3333 7.53493 2.69952 7.59153 3.09998C7.69705 3.90003 7.89274 4.68558 8.17486 5.44165C8.28698 5.73992 8.31125 6.06407 8.24478 6.37571C8.17832 6.68735 8.02392 6.9734 7.79986 7.19998L6.74153 8.25831C7.92783 10.3446 9.65524 12.072 11.7415 13.2583L12.7999 12.2C13.0264 11.9759 13.3125 11.8215 13.6241 11.7551C13.9358 11.6886 14.2599 11.7129 14.5582 11.825C15.3143 12.1071 16.0998 12.3028 16.8999 12.4083C17.3047 12.4654 17.6744 12.6693 17.9386 12.9812C18.2029 13.2931 18.3433 13.6913 18.3332 14.1Z"
                         stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
-                    <a >+91 8208553734</a>
+                    <a>+91 8208553734</a>
                   </a>
                 </div>
               </div>
@@ -187,18 +195,18 @@
                   </p>
                   <a href="mailto:sales@kohan.in?cc=info@kohan.in,&subject=Mail from kohan.co.in Website">
                     <p class="contact-us-detail"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <span>sales@kohan.in</span>
-                  </p>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span>sales@kohan.in</span>
+                    </p>
                   </a>
-                  
+
                   <a class="contact-us-detail" href="tel:+918208553734">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -219,11 +227,17 @@
               <div class="mission-content">
                 <div class="d-flex mission-data align-items-center">
                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M31.6667 5H8.33333C6.49238 5 5 6.49238 5 8.33333V31.6667C5 33.5076 6.49238 35 8.33333 35H31.6667C33.5076 35 35 33.5076 35 31.6667V8.33333C35 6.49238 33.5076 5 31.6667 5Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M20 21.668C22.7614 21.668 25 19.4294 25 16.668C25 13.9065 22.7614 11.668 20 11.668C17.2386 11.668 15 13.9065 15 16.668C15 19.4294 17.2386 21.668 20 21.668Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M11.668 34.9987V31.6654C11.668 30.7813 12.0192 29.9335 12.6443 29.3083C13.2694 28.6832 14.1172 28.332 15.0013 28.332H25.0013C25.8854 28.332 26.7332 28.6832 27.3583 29.3083C27.9834 29.9335 28.3346 30.7813 28.3346 31.6654V34.9987" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    
+                    <path
+                      d="M31.6667 5H8.33333C6.49238 5 5 6.49238 5 8.33333V31.6667C5 33.5076 6.49238 35 8.33333 35H31.6667C33.5076 35 35 33.5076 35 31.6667V8.33333C35 6.49238 33.5076 5 31.6667 5Z"
+                      stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M20 21.668C22.7614 21.668 25 19.4294 25 16.668C25 13.9065 22.7614 11.668 20 11.668C17.2386 11.668 15 13.9065 15 16.668C15 19.4294 17.2386 21.668 20 21.668Z"
+                      stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M11.668 34.9987V31.6654C11.668 30.7813 12.0192 29.9335 12.6443 29.3083C13.2694 28.6832 14.1172 28.332 15.0013 28.332H25.0013C25.8854 28.332 26.7332 28.6832 27.3583 29.3083C27.9834 29.9335 28.3346 30.7813 28.3346 31.6654V34.9987"
+                      stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+
                   <h1 class="mission-title">Managing Director</h1>
                 </div>
                 <div class="maincontent">
@@ -240,16 +254,16 @@
                   </p>
                   <a href="mailto:uddharak.gupta@kohan.in?cc=info@kohan.in,&subject=Mail from kohan.co.in Website">
                     <p class="contact-us-detail"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <span>uddharak.gupta@kohan.in</span>
-                  </p>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span>uddharak.gupta@kohan.in</span>
+                    </p>
                   </a>
                 </div>
               </div>
@@ -263,11 +277,17 @@
               <div class="mission-content">
                 <div class="d-flex mission-data align-items-center">
                   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M31.6667 5H8.33333C6.49238 5 5 6.49238 5 8.33333V31.6667C5 33.5076 6.49238 35 8.33333 35H31.6667C33.5076 35 35 33.5076 35 31.6667V8.33333C35 6.49238 33.5076 5 31.6667 5Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M20 21.668C22.7614 21.668 25 19.4294 25 16.668C25 13.9065 22.7614 11.668 20 11.668C17.2386 11.668 15 13.9065 15 16.668C15 19.4294 17.2386 21.668 20 21.668Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M11.668 34.9987V31.6654C11.668 30.7813 12.0192 29.9335 12.6443 29.3083C13.2694 28.6832 14.1172 28.332 15.0013 28.332H25.0013C25.8854 28.332 26.7332 28.6832 27.3583 29.3083C27.9834 29.9335 28.3346 30.7813 28.3346 31.6654V34.9987" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    
+                    <path
+                      d="M31.6667 5H8.33333C6.49238 5 5 6.49238 5 8.33333V31.6667C5 33.5076 6.49238 35 8.33333 35H31.6667C33.5076 35 35 33.5076 35 31.6667V8.33333C35 6.49238 33.5076 5 31.6667 5Z"
+                      stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M20 21.668C22.7614 21.668 25 19.4294 25 16.668C25 13.9065 22.7614 11.668 20 11.668C17.2386 11.668 15 13.9065 15 16.668C15 19.4294 17.2386 21.668 20 21.668Z"
+                      stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M11.668 34.9987V31.6654C11.668 30.7813 12.0192 29.9335 12.6443 29.3083C13.2694 28.6832 14.1172 28.332 15.0013 28.332H25.0013C25.8854 28.332 26.7332 28.6832 27.3583 29.3083C27.9834 29.9335 28.3346 30.7813 28.3346 31.6654V34.9987"
+                      stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+
                   <h1 class="mission-title">Unit Head</h1>
                 </div>
                 <div class="maincontent">
@@ -284,18 +304,18 @@
                   </p>
                   <a href="mailto:sales@kohan.in?cc=info@kohan.in,&subject=Mail from kohan.co.in Website">
                     <p class="contact-us-detail"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                      <path
-                        d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
-                        stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <span>sales@kohan.in</span>
-                  </p>
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.666 3.33331H3.33268C2.41221 3.33331 1.66602 4.07951 1.66602 4.99998V15C1.66602 15.9205 2.41221 16.6666 3.33268 16.6666H16.666C17.5865 16.6666 18.3327 15.9205 18.3327 15V4.99998C18.3327 4.07951 17.5865 3.33331 16.666 3.33331Z"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                          d="M18.3327 5.83331L10.8577 10.5833C10.6004 10.7445 10.3029 10.83 9.99935 10.83C9.69575 10.83 9.39829 10.7445 9.14102 10.5833L1.66602 5.83331"
+                          stroke="#EBF4FD" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span>sales@kohan.in</span>
+                    </p>
                   </a>
-                  
+
                 </div>
               </div>
             </div>
@@ -323,35 +343,41 @@
         <h1>Requirements, Information or Something else?</h1>
         <h3 class="text-capitalize">Please be so kind and send us your enquiry.</h3>
       </div>
-      <a href="https://drive.google.com/file/d/1LZDbc0rVQ2420hEHCQ64UfXfi__qp2mP/view?usp=sharing" target="_blank"><button
-          class="btn-primary clr-primary about-us">Download Brochure</button></a>
+      <a href="https://drive.google.com/file/d/1LZDbc0rVQ2420hEHCQ64UfXfi__qp2mP/view?usp=sharing"
+        target="_blank"><button class="btn-primary clr-primary about-us">Download Brochure</button></a>
     </div>
   </div>
   <footer>
     <div class="footer-links">
       <div class="logo">
-        <img class="img-fluid" src="images/logo.svg" alt="">
+        <a href="index.html"><img class="img-fluid" src="images/logo.svg" alt=""></a>
       </div>
+
       <div class="product-links">
         <h3 class="text-start mb-20">Our Company</h3>
         <div class="d-flex flex-column product-quick-link">
           <div><a href="aboutus.html">About us</a></div>
-          <div><a href="#">Capabilities</a></div>
-         <!-- <div><a href="#">Infrastructure</a></div> -->
+          <div><a href="product.html ">Material Grade and Standards</a></div>
+          <div><a href="capabilities.html">Capabilities</a></div>
+          <div><a href="manufacturing.html">Infrastructure</a></div>
           <div><a href="contact-us.html">Contact Us</a></div>
         </div>
       </div>
       <div class="product-links">
         <h3 class="text-start mb-20">Our Products</h3>
         <div class="d-flex flex-column product-quick-link">
-          <div><a href="products/nuts/nuts.html">Nuts</a></div>
-          <div><a href="products/bolts/bolts.html">Bolts</a></div>
-          <div><a href="products/washers/washers.html">Washers</a></div>
-          <div><a href="products/screws/screws.html">Screws</a></div>
-          <div><a href="products/pins/pins.html">Pins</a></div>
+          <div><a href="./products/screws/screws.html">Bolts & Screws</a></div>
+          <div><a href="./products/nuts/nuts.html">Nuts</a></div>
+          <!-- <div><a href="./products/bolts/bolts.html">Bolts</a></div> -->
+          <div><a href="./products/washers/washers.html">Washers</a></div>
+          <div><a href="./products/washers/washers.html">Rivets</a></div>
+          <div><a href="./products/pins/pins.html">Pins</a></div>
+          <div><a href="./products/pins/pins.html">Studs</a></div>
+          <div><a href="./products/pins/pins.html"> Specialty Fasteners</a></div>
+          <div><a href="./products/coating_and_surface/coating_and_surface.html">Coating & Surface Finish</a></div>
         </div>
       </div>
-      <div class="product-links">
+      <!-- <div class="product-links">
         <h3 class="text-start mb-20">Special Purpose Fastners</h3>
         <div class="d-flex flex-column product-quick-link">
           <div><a
@@ -364,8 +390,7 @@
               href="special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
           </div>
         </div>
-      </div>
-
+      </div> -->
     </div>
     <div class="border-line"></div>
     <p class="copyright">© Copyright 2024, Kohan Industries Pvt. Ltd. All rights Reserved.</p>
