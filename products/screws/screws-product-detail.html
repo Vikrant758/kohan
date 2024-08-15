@@ -3,7 +3,7 @@
 
 <head>
   <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0">
-  <title>Kohan | Detailed Bolts Information</title>
+  <title>Kohan | Detailed Bolts & Screws Information</title>
   <meta name="description"
     content="Kohan Industry Pvt Ltd - A trusted name in the fastener manufacturing sector since 1978. Explore our wide range of high-quality industrial fasteners, including bolts, screws, nuts, and washers, designed to meet the demands of various industries.">
   <meta name="keywords"
@@ -25,8 +25,8 @@
       const name = searchParams.get('name');
 
       if (id && dataBsTarget) {
-        const selectedActivateButtonId = "dry_wall_screws_tab";
-        const selectedContentId = "dry_wall_screws";
+        const selectedActivateButtonId = "hex_bolts_tab";
+        const selectedContentId = "hex_bolts";
         document.getElementById(selectedActivateButtonId).classList.remove('active');
         document.getElementById(selectedContentId).classList.remove('active');
         document.getElementById(selectedContentId).classList.remove('show');
@@ -45,68 +45,74 @@
 <body>
   <div class="backward-wave">
     <div id="product-detail">
+
+
       <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid p-0">
-            <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../../aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Products
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../../products/nuts/nuts.html">Nuts</a></li>
-                    <li><a class="dropdown-item" href="../../products/bolts/bolts.html">Bolts</a>
-                    </li>
-                    <li><a class="dropdown-item" href="../../products/washers/washers.html">Washers</a>
-                    </li>
-                    <li><a class="dropdown-item" href="../../products/screws/screws.html">Screws</a>
-                    </li>
-                    <li><a class="dropdown-item" href="../../products/pins/pins.html">Pins</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Special Purpose Fastners
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item"
-                        href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
-                    </li>
-                    <li><a class="dropdown-item"
-                        href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
-                    </li>
-                    <li><a class="dropdown-item"
-                        href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../../capabilities.html">Capabilities</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Infrastructure</a>
-                </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="../../contact-us.html">Contact Us</a>
-                </li>
-              </ul>
-            </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid p-0">
+          <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../../products/screws/screws.html">Bolts & Screws</a></li>
+                  <li><a class="dropdown-item" href="../../products/nuts/nuts.html">Nuts</a></li>
+                  <!-- <li><a class="dropdown-item" href="./products/bolts/bolts.html">Bolts</a></li> -->
+                  <li><a class="dropdown-item" href="../../products/washers/washers.html">Washers</a></li>
+                  <li><a class="dropdown-item" href="../../products/washers/washers.html">Rivets</a></li>
+                  <li><a class="dropdown-item" href="../../products/pins/pins.html">Pins</a></li>
+                  <li><a class="dropdown-item" href="../../products/pins/pins.html">Studs</a></li>
+                  <li><a class="dropdown-item" href="../../products/pins/pins.html">Specialty Fasteners</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../material-grade-standard.html">Material Grade and Standards</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Special Purpose Fastners
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"
+                      href="../../special_purpose_fastners.html?id=special_purpose_nuts_tab&data-bs-target=special_purpose_nuts&name=Special Purpose Nuts">Nuts</a>
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="../../special_purpose_fastners.html?id=special_purpose_bolts_tab&data-bs-target=special_purpose_bolts&name=Special Purpose Bolts">Bolts</a>
+                  </li>
+                  <li><a class="dropdown-item"
+                      href="../../special_purpose_fastners.html?id=special_purpose_screws_tab&data-bs-target=special_purpose_screws&name=Special Purpose Screws">Screws</a>
+                  </li>
+                </ul>
+              </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link" href="../../capabilities.html">Capabilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../manufacturing.html">Infrastructure</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../contact-us.html">Contact Us</a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
 
       </header>
 
@@ -124,11 +130,11 @@
           <div class="d-flex align-items-start product-list-detail">
             <div class="nav flex-column nav-pills me-3 align-items-start" id="v-pills-tab" role="tablist"
               aria-orientation="vertical">
-              <h2 class="clr-primary">Bolts</h2>
+              <h2 class="clr-primary">Bolts & Screws</h2>
 
-              <button class="nav-link tabs-text active" id="dry_wall_screws_tab" data-bs-toggle="pill"
-                data-bs-target="#dry_wall_screws" type="button" role="tab" aria-controls="dry_wall_screws"
-                aria-selected="true" onclick="onTypeClick('Drywell Screws')">Drywell Screws</button>
+              <button class="nav-link tabs-text active" id="hex_bolts_tab" data-bs-toggle="pill"
+                data-bs-target="#hex_bolts" type="button" role="tab" aria-controls="hex_bolts"
+                aria-selected="true" onclick="onTypeClick('Hex Bolts')">Hex Bolts</button>
 
               <button class="nav-link tabs-text" id="hex_coach_screws_tab" data-bs-toggle="pill"
                 data-bs-target="#hex_coach_screws" type="button" role="tab" aria-controls="hex_coach_screws"
@@ -146,7 +152,7 @@
                 data-bs-target="#socket_cap_screws" type="button" role="tab" aria-controls="socket_cap_screws"
                 aria-selected="true" onclick="onTypeClick('Socket Cap Screws')">Socket Cap Screws</button>
 
-              <button class="nav-link tabs-text" id="wood_screws_tab" data-bs-toggle="pill"
+              <!-- <button class="nav-link tabs-text" id="wood_screws_tab" data-bs-toggle="pill"
                 data-bs-target="#wood_screws" type="button" role="tab" aria-controls="wood_screws" aria-selected="true"
                 onclick="onTypeClick('Wood Screws')">Wood Screws</button>
 
@@ -160,22 +166,22 @@
 
               <button class="nav-link tabs-text" id="special_screws_tab" data-bs-toggle="pill"
                 data-bs-target="#special_screws" type="button" role="tab" aria-controls="special_screws"
-                aria-selected="true" onclick="onTypeClick('Special Screws')">Special Screws</button>
+                aria-selected="true" onclick="onTypeClick('Special Screws')">Special Screws</button> -->
 
             </div>
 
             <div class="tab-content" id="v-pills-tabContent">
 
-              <div class="tab-pane fade show active" id="dry_wall_screws" role="tabpanel"
-                aria-labelledby="dry_wall_screws_tab" tabindex="0">
+              <div class="tab-pane fade show active" id="hex_bolts" role="tabpanel"
+                aria-labelledby="hex_bolts_tab" tabindex="0">
 
                 <div class="detail-section">
                   <div class="detail-title mb-20 mt-40">
                     <img src="../../images/Nuts/produt-icon.webp" alt="">
-                    <h1 class="clr-primary">Drywell Screws</h1>
+                    <h1 class="clr-primary">Hex Bolts</h1>
                   </div>
                   <div class="d-flex product-detail-wrapper">
-                    <div class="product-description">
+                    <!-- <div class="product-description">
                       <p class="clr-text-black">At Kohan, we are a leading exporter of Drywall
                         Screws
                         in India, offering high-quality screws with a variety of finishes for
@@ -217,9 +223,9 @@
                           <li>Customization is also available.</li>
                         </ul>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="product-img">
-                      <img class="img-fluid" src="../../images/products/screws/dry_wall_screws.webp" alt="">
+                      <img class="img-fluid" src="../../images/products/bolts_screws/hex_bolts.webp" alt="">
                     </div>
                   </div>
                 </div>
