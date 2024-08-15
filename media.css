@@ -579,6 +579,10 @@
   .coat-surface-wrapper h3 {
     font-size: 22px;
   }
+
+  #product-detail .product-detail-wrapper .product-img {
+    grid-template-columns: 1fr;
+  }
 }
 
 
@@ -699,6 +703,10 @@
 
   #product-detail .product-list .nav-pills .nav-link {
     font-size: 18px;
+  }
+
+  #product-detail .product-detail-wrapper .product-img {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #product-detail {
