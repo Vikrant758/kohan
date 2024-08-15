@@ -559,6 +559,26 @@
   .certification-content.slick-slide {
     width: 265px !important;
   }
+
+  #grades-section .product-section {
+    height: 300px;
+  }
+
+  #grades-section .material-content {
+    padding: 0 24px;
+  }
+
+  .material-wrapper {
+    padding: 40px 0;
+  }
+
+  .material-container {
+    padding: 0 24px;
+  }
+
+  .coat-surface-wrapper h3 {
+    font-size: 22px;
+  }
 }
 
 

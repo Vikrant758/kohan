@@ -874,6 +874,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   text-transform: capitalize;
   font-weight: 500;
   margin-bottom: 24px;
+  font-size: 24px;
 }
 
 .industry-serve-wrapper .industry-content p {

@@ -62,7 +62,7 @@ body {
 }
 
 .clr-text-black {
-  color: var(--text-black);
+  color: var(--text-black) !important;
 }
 
 .bg-primary {
