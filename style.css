@@ -110,7 +110,7 @@ header .navbar {
   display: inline-block;
   position: relative;
   z-index: 0;
-  height: 450px;
+  height: 350px;
 }
 
 .our-product-section .product-detail:before,
@@ -295,10 +295,6 @@ header .navbar {
 .contact-us .contact-content h1 {
   margin-bottom: 16px;
   font-size: 30px;
-}
-
-.certifications {
-  padding-bottom: 80px;
 }
 
 .number-count h1 {
