@@ -132,6 +132,10 @@ header .navbar {
 }
 
 
+.our-product-section .product-detail.product-nuts {
+  height: 450px;
+}
+
 .product-detail .product-item .product-img img {
   height: 250px;
   width: 250px;
