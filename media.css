@@ -533,6 +533,32 @@
     font-size: 20px;
     margin-bottom: 16px;
   }
+
+  .material-container .content h5 {
+    font-size: 16px;
+  }
+
+  .material-container .content p {
+    font-size: 16px;
+  }
+
+  .responsive .slick-slide {
+    float: left;
+    width: calc(100% / 3);
+    /* Adjust based on your needs */
+  }
+
+  .certifications {
+    padding-bottom: 40px;
+  }
+
+  .certifications .certifications-wrapper img {
+    height: 170px;
+  }
+
+  .certification-content.slick-slide {
+    width: 265px !important;
+  }
 }
 
 
@@ -602,6 +628,10 @@
 
   .legacy-section .legacy-wrapper {
     padding: 0 0px 40px;
+  }
+
+  .certifications {
+    padding-bottom: 40px;
   }
 
   .legacy-section .legacy-wrapper .legacy-content p {
@@ -797,6 +827,12 @@
   .industry-serve-wrapper {
     height: 365px;
   }
+
+  .responsive .slick-slide {
+    float: left;
+    width: calc(100% / 3);
+    /* Adjust based on your needs */
+  }
 }
 
 @media (min-width: 820px) and (max-width:1024px) {
@@ -821,6 +857,10 @@
 
   #home-section .number-count .number {
     font-size: 40px;
+  }
+
+  .certifications {
+    padding-bottom: 40px;
   }
 
   #home-section .number-count .count-detail {
@@ -960,6 +1000,12 @@
 
   .industry-serve {
     padding: 0 40px;
+  }
+
+  .responsive .slick-slide {
+    float: left;
+    width: calc(100% / 3);
+    /* Adjust based on your needs */
   }
 }
 

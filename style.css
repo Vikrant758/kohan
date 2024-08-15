@@ -918,10 +918,12 @@ header .dropdown-menu li:last-child .dropdown-item {
   font-weight: 500;
   color: var(--green-clr);
   margin-bottom: 16px;
+  text-align: justify;
 }
 
 .material-container .content h5 {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 24px;
+  text-align: justify;
 }
