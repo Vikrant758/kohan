@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const counters = document.querySelectorAll('.number');
   const speed = 200; // Adjust the speed of the counting
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         updateCount(entry.target);
-        observer.unobserve(entry.target); 
+        observer.unobserve(entry.target);
       }
     });
   }, { threshold: 1.0 });

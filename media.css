@@ -583,6 +583,14 @@
   #product-detail .product-detail-wrapper .product-img {
     grid-template-columns: 1fr;
   }
+
+  .material-standard .certifications-wrapper .slick-slide {
+    height: 200px;
+  }
+
+  .material-standard {
+    padding: 0 24px;
+  }
 }
 
 
@@ -1032,8 +1040,12 @@
 
   .responsive .slick-slide {
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     /* Adjust based on your needs */
+  }
+
+  .coat-surface-wrapper {
+    padding-top: 0;
   }
 }
 
