@@ -6,21 +6,23 @@ document.addEventListener("DOMContentLoaded", function() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const updateCount = (el) => {
-          const target = +el.getAttribute('data-count');
-          const count = +el.innerText;
+          const isPercentage = el.getAttribute('data-count').includes('%');
+          const target = parseFloat(el.getAttribute('data-count').replace('%', ''));
+          let count = parseFloat(el.innerText.replace('%', ''));
 
           const increment = target / speed;
 
           if (count < target) {
-            el.innerText = Math.ceil(count + increment);
+            count = Math.ceil(count + increment);
+            el.innerText = count + (isPercentage ? '%' : '');
             setTimeout(() => updateCount(el), 10);
           } else {
-            el.innerText = target;
+            el.innerText = target + (isPercentage ? '%' : '');
           }
         };
 
         updateCount(entry.target);
-        observer.unobserve(entry.target); // Stop observing after animation
+        observer.unobserve(entry.target); 
       }
     });
   }, { threshold: 1.0 });
