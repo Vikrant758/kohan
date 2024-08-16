@@ -697,6 +697,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   color: var(--secondary-color);
   margin-top: 16px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .contact-us-wrapper .mission-wrapper img {
