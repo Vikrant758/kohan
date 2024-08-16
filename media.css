@@ -591,6 +591,20 @@
   .material-standard {
     padding: 0 24px;
   }
+
+  .legacy-section .chairman-wrapper {
+    padding: 0 24px 40px;
+  }
+
+  .journey-wrapper {
+    padding: 20px 24px;
+  }
+  .journey-wrapper p {
+    font-size: 16px;
+  }
+  .journey-wrapper h3 {
+    font-size: 24px;
+  }
 }
 
 
@@ -868,6 +882,22 @@
     float: left;
     width: calc(100% / 3);
     /* Adjust based on your needs */
+  }
+
+  .legacy-section .chairman-wrapper {
+    padding: 40px 64px;
+  }
+
+  .chairman-wrapper .legacy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chairman-wrapper .legacy-content {
+    order: 1;
+  }
+
+  .journey-wrapper {
+    padding: 20px 64px;
   }
 }
 

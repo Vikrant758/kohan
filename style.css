@@ -363,6 +363,7 @@ footer .footer-links .product-links h3 {
   font-size: 20px;
   font-weight: 500;
   text-align: justify;
+  color: var(--green-clr);
 }
 
 .legacy-wrapper h3 {
@@ -943,4 +944,16 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 .material-standard {
   padding: 0 64px;
+}
+
+.legacy-section .legacy-wrapper {
+  padding: 80px 180px;
+}
+
+.journey-wrapper {
+  padding: 40px 100px;
+}
+
+.journey-wrapper p {
+  font-size: 20px;
 }
