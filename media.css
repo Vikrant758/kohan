@@ -599,12 +599,24 @@
   .journey-wrapper {
     padding: 20px 24px;
   }
+
   .journey-wrapper p {
     font-size: 16px;
   }
+
   .journey-wrapper h3 {
     font-size: 24px;
   }
+
+  #manufacturing-section .product-section {
+    height: 300px;
+  }
+
+  .product-main.infra-main {
+    padding: 0 24px;
+  }
+
+
 }
 
 
