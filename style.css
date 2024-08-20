@@ -931,6 +931,13 @@ header .dropdown-menu li:last-child .dropdown-item {
   align-items: center;
 }
 
+.chairman-detail {
+  background-image: url(./images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 10%;
+}
+
 #grades-section .material-content {
   padding: 0 64px;
 }
