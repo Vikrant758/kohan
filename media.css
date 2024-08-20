@@ -951,7 +951,7 @@
   }
 
   header .navbar {
-    padding: 48px 15px;
+    padding: 48px 45px;
   }
 
   header .navbar-nav {
@@ -1089,6 +1089,16 @@
   .coat-surface-wrapper {
     padding-top: 0;
   }
+
+  #home-section .number-count {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  #home-section .aboutus-wrapper {
+    padding: 0 0px 80px;
+  }
+
 }
 
 
@@ -1125,7 +1135,7 @@
 
   .contact-us .contact-content h1 {
     margin-bottom: 16px;
-    font-size: 35px;
+    font-size: 28px;
   }
 
   .contact-us .contact-content h3 {
@@ -1221,6 +1231,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+  }
+
+  #home-section .number-count {
+    padding: 40px 0;
+    text-align: center;
   }
 }
 
@@ -1323,4 +1338,7 @@
     padding-bottom: 80px;
   }
 
+  .journey-content {
+    height: 820px;
+  }
 }
