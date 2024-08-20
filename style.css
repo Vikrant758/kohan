@@ -197,7 +197,7 @@ header .navbar {
 
 .approach-section .approach-content p {
   font-size: 24px;
-  color: var(--text-black);
+  color: var(--green-clr);
 }
 
 .approach-section .approach-content .approach-detail img {
@@ -272,6 +272,7 @@ header .navbar {
 
 .contact-us {
   padding: 64px;
+  margin-top: 10px;
 }
 
 .contact-us .btn-primary {
@@ -348,8 +349,8 @@ footer .footer-links .product-links h3 {
 }
 
 .legacy-section .legacy-img img {
-  height: 400px;
-  width: 400px;
+  height: 250px;
+  width: 250px;
   object-fit: contain;
   background-color: var(--white-bg);
 }
@@ -372,9 +373,17 @@ footer .footer-links .product-links h3 {
   font-size: 26px;
 }
 
+.approach-section {
+  padding-bottom: 40px;
+  background-image: url(./images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 13%;
+}
+
 .mission-content-data {
   /* background: var(--secondary-color); */
-  padding: 32px 64px;
+  padding: 32px 64px 80px;
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr 1fr;
@@ -418,6 +427,13 @@ footer .footer-links .product-links h3 {
   margin-top: 10px;
   text-align: justify;
 
+}
+
+.journey-content {
+  background-image: url(./images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 10%;
 }
 
 .menu-spacer {
@@ -855,13 +871,14 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 .manufacture-content h2 {
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .manufacture-content p {
   text-align: justify;
   font-size: 18px;
+  color: var(--green-clr);
 }
 
 .industry-serve {
