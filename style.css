@@ -285,7 +285,7 @@ header .navbar {
 
 .contact-us .btn-primary {
   background: var(--white-bg);
-  font-size: 30px;
+  font-size: 24px;
   padding: 16px 24px;
   border: 1px solid var(--white-bg);
   font-weight: bold;
@@ -302,12 +302,12 @@ header .navbar {
 
 .contact-us .contact-content h3 {
   text-align: start;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .contact-us .contact-content h1 {
   margin-bottom: 16px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .number-count h1 {

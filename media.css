@@ -677,12 +677,16 @@
   }
 
   .contact-us .contact-content h1 {
-    font-size: 24px;
+    font-size: 18px;
+  }
+
+  .contact-us .contact-content h3 {
+    font-size: 16px;
   }
 
   .contact-us .btn-primary {
     font-size: 24px;
-    width: 50%;
+    width: 200px;
   }
 
   .contact-us .d-flex {
@@ -1020,7 +1024,11 @@
   }
 
   .contact-us .contact-content h1 {
-    font-size: 24px;
+    font-size: 16px;
+  }
+
+  .contact-us .contact-content h3 {
+    font-size: 16px;
   }
 
   .contact-us .btn-primary {
@@ -1028,7 +1036,7 @@
   }
 
   #product-section .product-item h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .product-detail .product-item .product-img img {
@@ -1140,11 +1148,11 @@
 
   .contact-us .contact-content h1 {
     margin-bottom: 16px;
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .contact-us .contact-content h3 {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   footer .footer-links .product-links a {
