@@ -999,4 +999,5 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 .legacy-wrapper.about-main {
   padding: 0 180px 80px;
+  background-image: none;
 }
