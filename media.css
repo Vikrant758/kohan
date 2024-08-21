@@ -148,8 +148,12 @@
   }
 
   .contact-us .contact-content h1 {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
+  }
+
+  .contact-us .contact-content h3 {
+    font-size: 14px;
   }
 
   .industry-wrapper .industry-text .industry-content h3 {
