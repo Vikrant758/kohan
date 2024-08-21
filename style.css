@@ -977,6 +977,10 @@ header .dropdown-menu li:last-child .dropdown-item {
   margin-bottom: 18px;
 }
 
+.chairman-wrapper {
+  padding: 0 64px;
+}
+
 .material-standard {
   padding: 0 64px;
 }
@@ -991,4 +995,8 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 .journey-wrapper p {
   font-size: 18px;
+}
+
+.legacy-wrapper.about-main {
+  padding: 0 180px 80px;
 }
