@@ -939,7 +939,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   align-items: center;
 }
 
-.chairman-detail {
+.legacy-wrapper {
   background-image: url(./images/bg-image/bottom_icon.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
