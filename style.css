@@ -502,7 +502,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 
 #product-section .product-item h3 {
   text-transform: capitalize;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: var(--green-clr) !important;
 }
