@@ -630,6 +630,9 @@
     padding: 0;
   }
 
+  .material-wrapper.coat-surface-wrapper {
+    background-size: 20%;
+  }
 }
 
 

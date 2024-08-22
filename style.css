@@ -137,9 +137,10 @@ header .navbar {
 }
 
 .product-detail .product-item .product-img img {
-  height: 250px;
+  height: 200px;
   width: 250px;
   object-fit: contain;
+  margin-bottom: 30px;
 }
 
 .approach-detail p {
@@ -389,6 +390,22 @@ footer .footer-links .product-links h3 {
   background-size: 13%;
 }
 
+.material-wrapper.coat-surface-wrapper {
+  padding-bottom: 40px;
+  background-image: url(./images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 10%;
+}
+
+/* .manufacture-wrapper.surface-treatment-wrapper {
+  padding-bottom: 40px;
+  background-image: url(./images/bg-image/bottom_icon.webp);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 10%;
+} */
+
 .mission-content-data {
   /* background: var(--secondary-color); */
   padding: 32px 64px 80px;
@@ -487,6 +504,7 @@ header .dropdown-menu li:last-child .dropdown-item {
   text-transform: capitalize;
   font-size: 22px;
   font-weight: 500;
+  color: var(--green-clr) !important;
 }
 
 #product-section .product-list .product-detail {
