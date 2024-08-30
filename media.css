@@ -1339,6 +1339,10 @@
   .industry-serve-wrapper {
     height: 425px;
   }
+
+  footer .footer-links {
+    grid-template-columns: repeat(4, 21%);
+  }
 }
 
 @media (min-width: 1501px) and (max-width:1750px) {
@@ -1348,6 +1352,10 @@
     gap: 40px;
     justify-content: center;
     align-items: center;
+  }
+
+  footer .footer-links {
+    grid-template-columns: repeat(4, 21%);
   }
 }
 
@@ -1364,5 +1372,9 @@
 
   .journey-content {
     height: 820px;
+  }
+
+  footer .footer-links {
+    grid-template-columns: repeat(4, 21%);
   }
 }
