@@ -691,7 +691,7 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 .core-values {
-  padding: 80px 64px;
+  padding: 0 80px 64px;
 }
 
 .core-wrapper {
