@@ -325,6 +325,10 @@ footer .footer-links .product-links h3 {
   text-transform: capitalize;
 }
 
+.footer-content {
+  display: flex;
+}
+
 .industry-wrapper .industry-text .industry-content p {
   font-weight: 500;
 }
@@ -346,7 +350,7 @@ footer .footer-links .product-links h3 {
 }
 
 #about-section .aboutus-wrapper {
-  padding: 80px 40px 40px;
+  padding: 80px 80px 40px;
 }
 
 #about-section .aboutus-wrapper h2 {
@@ -354,6 +358,10 @@ footer .footer-links .product-links h3 {
 }
 
 #about-section {
+  padding: 0 px;
+}
+
+#about-section .about-banner-wrap {
   padding: 0 64px;
 }
 
