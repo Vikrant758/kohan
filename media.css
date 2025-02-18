@@ -633,6 +633,45 @@
   .material-wrapper.coat-surface-wrapper {
     background-size: 20%;
   }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-content .side-logo {
+    margin-top: 20px;
+  }
+
+  .policy-content.d-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #2a2a2a45;
+  }
+
+  .policy-content.d-grid:nth-child(2n) .policy-data {
+    order: 2;
+  }
+
+  .policy-content.d-grid .policy-data {
+    margin-bottom: 20px;
+  }
+
+  .our-policy {
+    padding: 0 0 64px;
+  }
+
+  .our-policy .our-policy-content p {
+    margin-bottom: 10px;
+  }
+
+  .policy-content.d-grid {
+    gap: 24px;
+  }
+
+  .iframe-data {
+    margin-top: 20px;
+    justify-content: flex-start !important;
+  }
 }
 
 
@@ -777,6 +816,24 @@
     font-size: 16px;
   }
 
+  .our-policy {
+    padding: 0 0 64px;
+  }
+
+  .policy-content.d-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #2a2a2a45;
+  }
+
+  .policy-content.d-grid:nth-child(2n) .policy-data {
+    order: 2;
+  }
+
+  .policy-content.d-grid .policy-data {
+    margin-bottom: 20px;
+  }
+
   .capbilites-wrapper-content {
     gap: 15px;
   }
@@ -893,6 +950,11 @@
     padding: 0 24px;
   }
 
+  .iframe-data {
+    margin-top: 20px;
+    justify-content: flex-start !important;
+  }
+
   .industry-grid {
     grid-template-columns: repeat(2, 310px);
   }
@@ -931,6 +993,10 @@
   .journey-wrapper {
     padding: 20px 64px;
   }
+
+  .footer-content {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 820px) and (max-width:1024px) {
@@ -942,12 +1008,25 @@
   .industry-wrapper .industry-text .industry-content h3 {
     font-size: 16px;
   }
+
+  .footer-content {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1024px) and (max-width:1200px) {
   .products-wrapper {
     grid-template-columns: repeat(3, 295px);
   }
+
+  .our-policy {
+    padding-top: 40px;
+  }
+
+  .policy-content.d-grid {
+    margin-bottom: 24px;
+  }
+
 
   #home-section .product-content h3 {
     font-size: 24px;
@@ -965,13 +1044,19 @@
     padding: 0 40px;
   }
 
+  .side-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
   header .nav-item .nav-link,
   header .navbar-expand-lg .navbar-nav .nav-link {
     font-size: 13px;
   }
 
   header .navbar {
-    padding: 48px 45px;
+    padding: 15px 45px;
+    box-shadow: 0 0 10px #2a2a2a24;
   }
 
   header .navbar-nav {
@@ -1341,7 +1426,8 @@
   }
 
   footer .footer-links {
-    grid-template-columns: repeat(4, 21%);
+    grid-template-columns: repeat(4, 25%);
+    width: 100%;
   }
 }
 
@@ -1371,10 +1457,11 @@
   }
 
   .journey-content {
-    height: 820px;
+    height: auto;
   }
 
   footer .footer-links {
-    grid-template-columns: repeat(4, 21%);
+    grid-template-columns: repeat(4, 25%);
+    width: 100%;
   }
 }

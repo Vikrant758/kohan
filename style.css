@@ -68,7 +68,8 @@ header .nav-item .nav-link.active {
 }
 
 header .navbar {
-  padding: 48px 64px;
+  padding: 36px 64px;
+  box-shadow: 0 0 10px #2a2a2a24;
 }
 
 #home-section .aboutus-wrapper {
@@ -325,6 +326,10 @@ footer .footer-links .product-links h3 {
   text-transform: capitalize;
 }
 
+.footer-content {
+  display: flex;
+}
+
 .industry-wrapper .industry-text .industry-content p {
   font-weight: 500;
 }
@@ -346,7 +351,7 @@ footer .footer-links .product-links h3 {
 }
 
 #about-section .aboutus-wrapper {
-  padding: 80px 40px 40px;
+  padding: 80px 80px 40px;
 }
 
 #about-section .aboutus-wrapper h2 {
@@ -354,6 +359,10 @@ footer .footer-links .product-links h3 {
 }
 
 #about-section {
+  padding: 0 px;
+}
+
+#about-section .about-banner-wrap {
   padding: 0 64px;
 }
 
@@ -683,7 +692,26 @@ header .dropdown-menu li:last-child .dropdown-item {
 }
 
 .core-values {
-  padding: 80px 64px;
+  padding: 0 80px 64px;
+}
+
+.our-policy {
+  padding: 0 80px 64px;
+}
+
+.our-policy p {
+  margin-top: 40px;
+  font-size: 18px;
+  margin: 40px auto 0;
+  /* width: 80%; */
+}
+
+.our-policy .our-policy-content p {
+  font-size: 20px;
+}
+
+.our-policy .policy-data p {
+  margin:0;
 }
 
 .core-wrapper {
@@ -1018,4 +1046,23 @@ header .dropdown-menu li:last-child .dropdown-item {
 .legacy-wrapper.about-main {
   padding: 0 180px 80px;
   background-image: none;
+}
+
+.policy-content.d-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 48px;
+}
+
+.policy-content .policy-img img {
+  border-radius: 20px;
+  height: auto;
+}
+
+.policy-content .policy-img {
+  display: flex;
+  justify-content: center;
+}
+
+.our-policy .adhere p {
+  font-size: 20px;
 }
