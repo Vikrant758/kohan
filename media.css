@@ -639,7 +639,33 @@
   }
 
   .footer-content .side-logo {
-    margin-top:20px;
+    margin-top: 20px;
+  }
+
+  .policy-content.d-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #2a2a2a45;
+  }
+
+  .policy-content.d-grid:nth-child(2n) .policy-data {
+    order: 2;
+  }
+
+  .policy-content.d-grid .policy-data {
+    margin-bottom: 20px;
+  }
+
+  .our-policy {
+    padding: 0 0 64px;
+  }
+
+  .our-policy .our-policy-content p {
+    margin-bottom: 10px;
+  }
+
+  .policy-content.d-grid {
+    gap: 24px;
   }
 }
 
@@ -783,6 +809,24 @@
 
   .capabilities-content .size p {
     font-size: 16px;
+  }
+
+  .our-policy {
+    padding: 0 0 64px;
+  }
+
+  .policy-content.d-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #2a2a2a45;
+  }
+
+  .policy-content.d-grid:nth-child(2n) .policy-data {
+    order: 2;
+  }
+
+  .policy-content.d-grid .policy-data {
+    margin-bottom: 20px;
   }
 
   .capbilites-wrapper-content {
@@ -965,6 +1009,15 @@
     grid-template-columns: repeat(3, 295px);
   }
 
+  .our-policy {
+    padding-top: 40px;
+  }
+
+  .policy-content.d-grid {
+    margin-bottom: 24px;
+  }
+
+
   #home-section .product-content h3 {
     font-size: 24px;
   }
@@ -992,7 +1045,8 @@
   }
 
   header .navbar {
-    padding: 48px 45px;
+    padding: 15px 45px;
+    box-shadow: 0 0 10px #2a2a2a24;
   }
 
   header .navbar-nav {
