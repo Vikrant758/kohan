@@ -667,6 +667,11 @@
   .policy-content.d-grid {
     gap: 24px;
   }
+
+  .iframe-data {
+    margin-top: 20px;
+    justify-content: flex-start !important;
+  }
 }
 
 
@@ -943,6 +948,11 @@
 
   .industry-serve {
     padding: 0 24px;
+  }
+
+  .iframe-data {
+    margin-top: 20px;
+    justify-content: flex-start !important;
   }
 
   .industry-grid {
