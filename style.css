@@ -402,6 +402,7 @@ footer .footer-content .duns-qr {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 13%;
+  padding-top:64px;
 }
 
 .material-wrapper.coat-surface-wrapper {
