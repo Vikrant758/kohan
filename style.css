@@ -333,6 +333,8 @@ footer .footer-links .product-links h3 {
 footer .footer-content .duns-qr {
   height: 96px;
   width: 96px;
+  align-items: center;
+  display: flex;
 }
 
 .industry-wrapper .industry-text .industry-content p {
