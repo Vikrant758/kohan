@@ -870,6 +870,10 @@ header .dropdown-menu li:last-child .dropdown-item {
   justify-content: center;
 }
 
+.iframe-data {
+  gap: 20px;
+}
+
 #product-detail .product-list.our-product-section {
   background-image: url(./images/bg-image/bottom_icon.webp);
   background-repeat: no-repeat;
