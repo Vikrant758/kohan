@@ -652,6 +652,14 @@
     order: 2;
   }
 
+  .policy-data h4{
+    font-size: 18px;
+  }
+
+  .policy-data p {
+    font-size: 16px !important;
+  }
+
   .policy-content.d-grid .policy-data {
     margin-bottom: 20px;
   }
@@ -671,6 +679,10 @@
   .iframe-data {
     margin-top: 20px;
     justify-content: flex-start !important;
+  }
+
+  #about-section .about-banner-wrap {
+    padding: 0 0;
   }
 }
 
@@ -996,6 +1008,10 @@
 
   .footer-content {
     flex-direction: column;
+  }
+
+  #about-section .about-banner-wrap {
+    padding: 0 0;
   }
 }
 
