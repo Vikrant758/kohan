@@ -644,11 +644,11 @@
 
   .policy-content.d-grid {
     grid-template-columns: 1fr;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #2a2a2a45;
   }
 
-  .policy-content.d-grid:nth-child(2n) .policy-data {
+  .policy-content.d-grid:nth-child(2n) .policy-img {
     order: 2;
   }
 
@@ -662,6 +662,7 @@
 
   .our-policy .our-policy-content p {
     margin-bottom: 10px;
+    font-size: 16px;
   }
 
   .policy-content.d-grid {
@@ -672,7 +673,22 @@
     margin-top: 20px;
     justify-content: flex-start !important;
   }
+
+  .policy-content.d-grid .policy-data h4,
+  .our-policy .adhere p {
+    margin-top:16px;
+  }
+
+  .policy-content.d-grid .policy-data h4 {
+    font-size: 18px;
+  }
+
+  .our-policy-content .policy-content .policy-data p:first-child {
+    font-size: 24px;
+  }
 }
+
+
 
 
 @media (min-width: 768px) and (max-width:1023px) {
@@ -817,21 +833,30 @@
   }
 
   .our-policy {
-    padding: 0 0 64px;
+    padding: 0 0 10px;
   }
 
   .policy-content.d-grid {
     grid-template-columns: 1fr;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
+    grid-gap:24px;
     border-bottom: 1px solid #2a2a2a45;
   }
 
-  .policy-content.d-grid:nth-child(2n) .policy-data {
+  .our-policy .adhere p {
+    margin: 20px auto 0;
+  }
+
+  .policy-content.d-grid:nth-child(2n) .policy-img {
     order: 2;
   }
 
   .policy-content.d-grid .policy-data {
     margin-bottom: 20px;
+  }
+
+  .policy-content .policy-data h4 {
+    margin-top: 20px;
   }
 
   .capbilites-wrapper-content {

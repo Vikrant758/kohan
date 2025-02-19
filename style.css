@@ -330,6 +330,11 @@ footer .footer-links .product-links h3 {
   display: flex;
 }
 
+footer .footer-content .duns-qr {
+  height: 96px;
+  width: 96px;
+}
+
 .industry-wrapper .industry-text .industry-content p {
   font-weight: 500;
 }
@@ -478,6 +483,11 @@ header .dropdown-item {
   color: var(--green-clr);
   border-bottom: 1px solid #E8E8F0;
   font-weight: 500;
+}
+
+.our-policy-content .policy-content .policy-data p:first-child {
+  font-weight: 600;
+  font-size: 28px;
 }
 
 header .dropdown-menu li:last-child .dropdown-item {
