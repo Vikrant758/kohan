@@ -652,6 +652,14 @@
     order: 2;
   }
 
+  .policy-data h4 {
+    font-size: 18px;
+  }
+
+  .policy-data p {
+    font-size: 16px !important;
+  }
+
   .policy-content.d-grid .policy-data {
     margin-bottom: 20px;
   }
@@ -676,7 +684,7 @@
 
   .policy-content.d-grid .policy-data h4,
   .our-policy .adhere p {
-    margin-top:16px;
+    margin-top: 16px;
   }
 
   .policy-content.d-grid .policy-data h4 {
@@ -685,6 +693,10 @@
 
   .our-policy-content .policy-content .policy-data p:first-child {
     font-size: 24px;
+  }
+
+  #about-section .about-banner-wrap {
+    padding: 0 0;
   }
 }
 
@@ -839,7 +851,7 @@
   .policy-content.d-grid {
     grid-template-columns: 1fr;
     margin-bottom: 10px;
-    grid-gap:24px;
+    grid-gap: 24px;
     border-bottom: 1px solid #2a2a2a45;
   }
 
@@ -1021,6 +1033,10 @@
 
   .footer-content {
     flex-direction: column;
+  }
+
+  #about-section .about-banner-wrap {
+    padding: 0 0;
   }
 }
 
