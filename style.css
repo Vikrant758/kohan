@@ -89,6 +89,10 @@ header .navbar {
   text-transform: capitalize;
 }
 
+.footer-content .iso-img img{
+  height: 114px;
+  width: 114px;
+}
 
 .our-product-section .product-detail {
   padding: 10px;

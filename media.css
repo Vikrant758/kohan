@@ -679,8 +679,9 @@
 
   .iframe-data {
     margin-top: 20px;
-    justify-content: flex-start !important;
     flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
   }
 
   .policy-content.d-grid .policy-data h4,
