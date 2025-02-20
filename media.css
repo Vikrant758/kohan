@@ -680,6 +680,7 @@
   .iframe-data {
     margin-top: 20px;
     justify-content: flex-start !important;
+    flex-direction: column;
   }
 
   .policy-content.d-grid .policy-data h4,
@@ -990,6 +991,8 @@
   .iframe-data {
     margin-top: 20px;
     justify-content: flex-start !important;
+    flex-direction: column;
+    align-items: flex-start !important;
   }
 
   .industry-grid {

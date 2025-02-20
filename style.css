@@ -331,14 +331,19 @@ footer .footer-links .product-links h3 {
 }
 
 footer .footer-content .duns-qr {
-  height: 96px;
-  width: 96px;
+  height: 114px;
+  width: 114px;
   align-items: center;
   display: flex;
 }
 
 .industry-wrapper .industry-text .industry-content p {
   font-weight: 500;
+}
+
+.footer-content .gem-logo img {
+  height: 200px;
+  width: 200px;
 }
 
 /* About Us */
