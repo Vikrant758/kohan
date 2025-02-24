@@ -90,8 +90,7 @@ header .navbar {
 }
 
 .footer-content .iso-img img{
-  height: 114px;
-  width: 114px;
+ width: 130px;
 }
 
 .our-product-section .product-detail {
@@ -335,19 +334,21 @@ footer .footer-links .product-links h3 {
 }
 
 footer .footer-content .duns-qr {
-  height: 114px;
-  width: 114px;
+  height: 96px;
+  width: 96px;
   align-items: center;
   display: flex;
 }
+
+
 
 .industry-wrapper .industry-text .industry-content p {
   font-weight: 500;
 }
 
 .footer-content .gem-logo img {
-  height: 200px;
-  width: 200px;
+  
+  width: 150px;
 }
 
 /* About Us */
