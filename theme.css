@@ -139,11 +139,13 @@ footer .footer-links .product-links a {
 }
 
 footer .product-quick-link {
-  gap: 16px;
+  /* gap: 16px; */
+  gap: 8px;
 }
 
 footer .footer-links .product-links h3 {
   font-size: 26px;
+  margin-bottom: 16px;
 }
 
 footer .border-line {
