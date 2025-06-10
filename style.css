@@ -340,15 +340,20 @@ footer .footer-content .duns-qr {
   display: flex;
 }
 
-
-
 .industry-wrapper .industry-text .industry-content p {
   font-weight: 500;
 }
 
 .footer-content .gem-logo img {
-  
-  width: 150px;
+  width: 125px;
+}
+
+.footer-content .rohs-logo img {
+  width: 125px;
+}
+
+.footer-content .reach-logo img {
+  width: 125px;
 }
 
 /* About Us */
