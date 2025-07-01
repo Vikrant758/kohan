@@ -335,7 +335,7 @@ footer .footer-links .product-links h3 {
 
 footer .footer-content .duns-qr {
   height: 80px;
-  width: 80px;
+  width: 125px;
   align-items: center;
   display: flex;
 }
@@ -345,7 +345,7 @@ footer .footer-content .duns-qr {
 }
 
 .footer-content .gem-logo img {
-  width: 125px;
+  width: 120px;
 }
 
 .footer-content .rohs-logo img {
