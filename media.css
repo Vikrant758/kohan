@@ -442,6 +442,20 @@
     height: 100%;
   }
 
+  .contact-us-wrapper .contact-form-card {
+    padding: 24px 16px 28px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form-card .contact-form-title {
+    font-size: 22px;
+  }
+
+  .contact-form-card .contact-form-intro {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
   .aboutus-wrapper p {
     margin-bottom: 0;
     font-size: 16px;
@@ -895,6 +909,15 @@
 
   .contact-us-wrapper .mission-wrapper .mission-content {
     height: 300px;
+  }
+
+  .contact-us-wrapper .contact-form-card {
+    padding: 24px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form-card .contact-form-title {
+    font-size: 26px;
   }
 
   .contact-us-wrapper .mission-data h1 {
@@ -1508,5 +1531,28 @@
   footer .footer-links {
     grid-template-columns: repeat(4, 25%);
     width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .accreditation-section {
+    padding: 24px 0 0;
+  }
+
+  #home-section .accreditation-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .accreditation-item {
+    height: 110px;
+    padding: 0 12px;
+  }
+
+  .accreditation-item img {
+    max-height: 80px;
+  }
+
+  .accreditation-qr img {
+    max-height: 72px;
   }
 }

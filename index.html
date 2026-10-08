@@ -450,6 +450,42 @@
           </div>
         </div>
       </div> -->
+
+      <div class="accreditation-section">
+        <h2 class="text-center clr-primary">Certifications</h2>
+        <div class="accreditation-slider">
+          <div class="accreditation-item accreditation-duns">
+            <iframe id="Iframe1" title="D-U-N-S Registered seal"
+              src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1" width="120px" height="97px"
+              frameborder="0" scrolling="no" allowtransparency="true"
+              style="max-width: 100%; max-height: 100px;"></iframe>
+          </div>
+          <div class="accreditation-item accreditation-qr">
+            <img class="img-fluid" src="images/qr-duns.jpg" alt="D-U-N-S QR code">
+          </div>
+          <div class="accreditation-item">
+            <img class="img-fluid" src="images/made_in_india.svg" alt="Made in India">
+          </div>
+          <div class="accreditation-item">
+            <img class="img-fluid" src="images/iso.png" alt="ISO 9001:2015 certified">
+          </div>
+          <div class="accreditation-item">
+            <img class="img-fluid" src="images/gems.png" alt="GeM registered">
+          </div>
+          <div class="accreditation-item">
+            <img class="img-fluid" src="images/rohs.png" alt="RoHS compliant">
+          </div>
+          <div class="accreditation-item">
+            <img class="img-fluid" src="images/reach.png" alt="REACH compliant">
+          </div>
+          <div class="accreditation-item">
+            <img class="img-fluid" src="images/sgs-iso-9001.png" alt="SGS ISO 9001 system certification">
+          </div>
+          <div class="accreditation-item">
+            <img class="img-fluid" src="images/ukas.png" alt="UKAS Management Systems accredited">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -513,6 +549,7 @@
         </div> -->
       </div>
 
+      <!-- Accreditation icons moved to the auto-slider above the "Contact Us" strip (home page only)
       <div class="side-logo align-items-center">
         <div class="d-flex justify-content-center iframe-data align-items-center">
           <iframe id="Iframe1" src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1" width="120px"
@@ -548,9 +585,8 @@
             <img src="images/reach.png" alt="">
           </div>
         </div>
-
-        <!-- <script language="JavaScript" src="https://dunsregistered.dnb.com" type="text/javascript"></script> -->
       </div>
+      -->
     </div>
     <div class="border-line"></div>
     <p class="copyright">© Copyright 2024, Kohan Industries Pvt. Ltd. All rights Reserved.</p>
@@ -570,6 +606,23 @@
 
   <script type="text/javascript">
     $(document).ready(function () {
+      // continuous logo ticker: equal gaps between logos, no pause between slides
+      $('.accreditation-slider').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        variableWidth: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 3000,
+        cssEase: 'linear',
+        pauseOnHover: true,
+        pauseOnFocus: false,
+        swipe: false
+      });
+
       $('.responsive').slick({
         dots: false,
         // infinite: true,
